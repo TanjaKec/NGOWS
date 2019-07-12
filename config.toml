@@ -19,7 +19,7 @@ googleAnalytics = ""
   # information about you and your website.
   name = "Sister Analyst"
   description = "Advancing data to conversation"
-  email = "tatjana.keco@gmail.com"
+  email = "tatjana@rladies.org"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -260,7 +260,7 @@ She worked at Pied Piper for years until they went belly up."""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "tatjana.keco@gmail.com"
+    email = "tatjana@rladies.org"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
