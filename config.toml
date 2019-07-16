@@ -52,6 +52,7 @@ googleAnalytics = ""
     services = "Services"
     portfolio = "Portfolio"
     about = "About"
+    post = "Posts"
     team = "Team"
     contact = "Contact"
 
@@ -93,7 +94,7 @@ googleAnalytics = ""
       icon = "fa-book"
       title = "courses"
       description = "Our courses are aimed at young women and non binary people from any social background with the desire to enter the rapidly expanding world of data."
-      url = "#"
+      url = "/data/"
 
     [[params.services.row.list]]
       icon = "fa-globe"
@@ -154,6 +155,9 @@ googleAnalytics = ""
       title = "Our Goal"
       description = "Sister Analyst aims to empower women in an underrepresented tech industry by developing technical as well as gender specific skills to achieve equitable representation."
 
+  [params.post]
+      title = "What we do"
+      url = "/post/"
 
   # Team section
   [params.team]
