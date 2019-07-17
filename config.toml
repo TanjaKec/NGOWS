@@ -50,7 +50,7 @@ googleAnalytics = ""
     # Optional logo as brand stored in img/
     logo = "finished.jpg"
     services = "Services"
-    portfolio = "Portfolio"
+    portfolio = "Portfolio"         
     about = "About"
     post = "Posts"
     team = "Team"
@@ -242,7 +242,7 @@ She worked at Pied Piper for years until they went belly up."""
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    subtitle  = "Acquire the skills of XXI century."
     buttonText = "Send message"
     # netlify = true
 
@@ -271,7 +271,7 @@ She worked at Pied Piper for years until they went belly up."""
     #error = "Message could not be send. Please contact us at mail@example.com instead."
 
     [params.contact.captcha]
-      # sitekey = ""
+       sitekey = ""
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
