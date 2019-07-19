@@ -48,7 +48,7 @@ googleAnalytics = ""
   [params.navigation]
     brand = "Sister Analyst"
     # Optional logo as brand stored in img/
-    logo = "finished.jpg"
+    logo = "logosa.png"
     services = "Services"
     portfolio = "Portfolio"         
     about = "About"
@@ -165,17 +165,17 @@ googleAnalytics = ""
     # Possibility to center items
     #center = true
     title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    subtitle = "We invest in building a diverse and inclusive environment within DS community."
+    description = "We believe that everyone deserves respect and equal treatment regardless of gender, race, ethnicity, age, disability, sexual orientation, gender identity or cultural background. When people feel appreciated and included, they can be more creative, innovative, and successful."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "1.jpg"
-      name = "Tatjana Kecojevic"
-      position = "Founder"
-      reportsTo = "CTO"
+      img = "TK.png"
+      name = "Tatjana Kecojević"
+      position = "Founder and Chief Executive"
+      #reportsTo = "CTO"
       livesIn = "[Belgrade, Serbia](https://www.google.com/maps/place/Београд/@44.576425,11.4266353,5z/data=!4m5!3m4!1s0x475a7aa3d7b53fbd:0x1db8645cf2177ee4!8m2!3d44.786568!4d20.4489216?hl=sr)"
       scope = [
         "UX for [member dashboard](#)",
