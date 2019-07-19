@@ -48,7 +48,7 @@ googleAnalytics = ""
   [params.navigation]
     brand = "Sister Analyst"
     # Optional logo as brand stored in img/
-    logo = "logosa.png"
+    logo = "logo_sa.png"
     services = "Services"
     portfolio = "Portfolio"         
     about = "About"
