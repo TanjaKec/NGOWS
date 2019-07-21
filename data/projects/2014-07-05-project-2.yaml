@@ -2,8 +2,13 @@ modalID: 2
 title: Training
 subtitle: Lorem ipsum dolor sit amet consectetur.
 date: 2019-07-16
+<<<<<<< HEAD:data/projects/2014-07-05-project-2.yaml
 img: training_b.jpg
 preview: training_a.jpg
+=======
+img: miki.jpg
+preview: bebebjpg.jpg
+>>>>>>> 4cee5d9842fe2d50835c0fc261c5c9b5e82a15ea:data/projects/2014-07-05-project-7.yaml
 client: Start Bootstrap
 clientLink: "#"
 category: Graphic Design

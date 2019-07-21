@@ -165,30 +165,30 @@ googleAnalytics = ""
     # Possibility to center items
     #center = true
     title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    subtitle = "We invest in building a diverse and inclusive environment within DS community."
+    description = "We believe that everyone deserves respect and equal treatment regardless of gender, race, ethnicity, age, disability, sexual orientation, gender identity or cultural background. When people feel appreciated and included, they can be more creative, innovative, and successful."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
+      img = "TK.png"
+      name = "Tatjana Kecojević"
+      position = "Founder and Chief Executive"
+      #reportsTo = "CTO"
+      livesIn = "[Belgrade, Serbia](https://www.google.com/maps/place/Београд/@44.576425,11.4266353,5z/data=!4m5!3m4!1s0x475a7aa3d7b53fbd:0x1db8645cf2177ee4!8m2!3d44.786568!4d20.4489216?hl=sr)"
       scope = [
         "UX for [member dashboard](#)",
         "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
+        "Open Source [community management](https://www.linkedin.com/in/tatjana-kecojevic-803704143/)"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
+      bio = """Tatjana is ever-evolving Data Scientist an awesome Lead Designer with heaps of experience in the field of UX.
 She worked at Pied Piper for years until they went belly up."""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/Tatjana_Kec"],
+        ["fa-github", "https://github.com/TanjaKec"],
+        ["fa-linkedin", "https://www.linkedin.com/in/tatjana-kecojevic-803704143/"]
       ]
 
     [[params.team.members]]

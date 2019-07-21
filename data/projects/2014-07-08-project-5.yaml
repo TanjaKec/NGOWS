@@ -1,9 +1,17 @@
 modalID: 5
+<<<<<<< HEAD:data/projects/2014-07-08-project-5.yaml
 title: Partners
 subtitle: Lorem ipsum dolor sit amet consectetur.
 date: 2014-07-09
 img: partners_b.jpg
 preview: partners_a.jpg
+=======
+title: Corporate Activity
+subtitle: Lorem ipsum dolor sit amet consectetur.
+date: 2014-07-09
+img: corp-faces.jpg
+preview: corp-act.jpg
+>>>>>>> 4cee5d9842fe2d50835c0fc261c5c9b5e82a15ea:data/projects/2014-07-08-project-4.yaml
 client: Start Bootstrap
 clientLink: "#"
 category: Website Design
