@@ -79,14 +79,14 @@ googleAnalytics = ""
     # the 'static/img' folder.
     subtitle = "Sister Analyst"
     title = "Advancing data to conversation"
-    buttonText = "Tell me more"
+    buttonText = "Our Work"
 
 
   # Services section
   [params.services]
     enable = true
     title = "Training"
-    subtitle = "DS is critical driver for innovation."
+    subtitle = "Data Literacy is critical driver for innovation."
 
     [[params.services.row]]
 
@@ -244,6 +244,7 @@ She worked at Pied Piper for years until they went belly up."""
     title = "Contact us"
     subtitle  = "Acquire the skills of XXI century."
     buttonText = "Send message"
+    
     # netlify = true
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -264,7 +265,7 @@ She worked at Pied Piper for years until they went belly up."""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "tatjana@rladies.org"
+    email = "tatjana.keco@gmail.com"
 
     # Success and error message overwrite for async contact form
     thanks = "Thank you for awesomely contacting us."
