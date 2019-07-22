@@ -1,18 +1,9 @@
-<<<<<<< HEAD:data/projects/2014-07-06-project-3.yaml
 modalID: 3
 title: Community
 subtitle: Lorem ipsum dolor sit amet consectetur.
 date: 2014-07-06
 img: community_b.jpg
 preview: community_a.jpg
-=======
-modalID: 2
-title: Research & Development
-subtitle: Lorem ipsum dolor sit amet consectetur.
-date: 2014-07-06
-img: R&D3_b.jpg
-preview: R&D3_a.jpg
->>>>>>> 4cee5d9842fe2d50835c0fc261c5c9b5e82a15ea:data/projects/2014-07-06-project-2.yaml
 client: Start Bootstrap
 clientLink: "#"
 category: Website Design
