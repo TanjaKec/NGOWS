@@ -215,7 +215,7 @@ She worked at Pied Piper for years until they went belly up."""
     [params.clients_list]
       enable = true
       # Possibility to center items
-      #center = true
+      # center = true
       # Optional client title specifying the involvement
       #title = "Used and trusted by"
 
