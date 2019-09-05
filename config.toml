@@ -52,7 +52,6 @@ googleAnalytics = ""
     services = "Services"
     portfolio = "Portfolio"         
     about = "About"
-    post = "Posts"
     team = "Team"
     contact = "Contact"
 
@@ -68,7 +67,7 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-      url = "http://gohugo.io"
+      url = "http://klikr.rbind.io"
       name = "External link"
       weight = 10
 
