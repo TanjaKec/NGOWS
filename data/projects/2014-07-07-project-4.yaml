@@ -1,10 +1,10 @@
 modalID: 4
-title: Research & development
-subtitle: Lorem ipsum dolor sit amet consectetur.
-date: 2014-07-07
+title: Research & Development
+subtitle: Transparency and pen research 
+#date: 2014-07-07
 img: RandD_b.jpg
 preview: RandD_a.jpg
-client: Start Bootstrap
-clientLink: "#"
-category: Website Design
-description: Treehouse is a free PSD web template built by [Mathavan Jaya](//www.behance.net/MathavanJaya). This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects. <br><br>You can download the PSD template in this portfolio sample item at [FreebiesXpress.com](freebiesxpress.com/gallery/treehouse-free-psd-web-template/).
+#client: Start Bootstrap
+#clientLink: "#"
+category: Working With Academia
+description: <div align="left">We help institutions build the groundwork for a culture of transparent, open and reproducible research. Our training focuses on the effective use of computational tools in research that help easily track the process leading from data to results, so that it is fully reproducible.</br><br>We encourage researchers across a range of disciplines to acquire and develop the necessary computing and data skills needed for effective open and reproducible research. We do this by establishing an enquiring culture and by publishing and disseminating researchers papers with reproducible associated code and data.</br><br>We will introduce you to <b>research compendia</b> an increasingly used form of publication, that enables easy reproduction of the scientific workflow by packaging not only the research paper's text and figures, but also all data and software for better reproducibility. Such research practice increases the informational value and impact of one’s research, as the data and the available code and algorithms of their analysis can be reproduced, synthesized and update for future studies. Hence, it increases the credibility of the results, as independent verification of the findings is possible.</br><br>As we are great believers in transparency and open research we advocate research compendium through the use of R and RStudio. R together with RStudio is the best data science tool! It is open source and free software that is available to anyone with a desire to discover, learn, explore, experience, expand and share the algorithms of their data science journey. The R package structure is great way to organize and share a compendium. Packaging your analysis as a compendium gives you access to powerful developer tools.</br></div>
