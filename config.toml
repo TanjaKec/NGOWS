@@ -115,7 +115,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Portfolio"
-    subtitle = "Lorem what we do and how we do it"
+    subtitle = "Learn what we do and how we do it"
 
     [params.portfolio.modal]
       client = "Client"
@@ -244,7 +244,7 @@ She worked at Pied Piper for years until they went belly up."""
     subtitle  = "Acquire the skills of XXI century."
     buttonText = "Send message"
     
-    netlify = true
+    netlify = false
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
