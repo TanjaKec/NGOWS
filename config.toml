@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://sisteranalyst.netlify.com/"
+baseurl = "https://sisteranalyst.org/"
 languageCode = "en-us"
 title = "Sister Analyst"
 theme = "hugo-agency-theme"
