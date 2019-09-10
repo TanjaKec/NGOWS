@@ -78,7 +78,7 @@ googleAnalytics = ""
     # the 'static/img' folder.
     subtitle = "Sister Analyst"
     title = "Advancing data to conversation"
-    buttonText = "Our Work"
+    buttonText = "What we do"
 
 
   # Services section
