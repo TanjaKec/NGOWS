@@ -93,7 +93,7 @@ googleAnalytics = ""
       icon = "fa-book"
       title = "courses"
       description = "Our courses are aimed at young women and non binary people from any social background with the desire to enter the rapidly expanding world of data."
-      url = "/data/"
+      url = "#"
 
     [[params.services.row.list]]
       icon = "fa-globe"
