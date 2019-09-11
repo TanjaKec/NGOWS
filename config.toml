@@ -171,7 +171,7 @@ googleAnalytics = ""
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "TK.jpg"
+      img = "TK.png"
       name = "Tatjana Kecojević"
       position = "Founder and Chief Executive"
       #reportsTo = "CTO"
@@ -182,8 +182,7 @@ googleAnalytics = ""
         "Open Source [community management](https://www.linkedin.com/in/tatjana-kecojevic-803704143/)"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """Tatjana is ever-evolving Data Scientist an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
+      bio = "Tatjana is ever-evolving Data Scientist. Her experience in academia and understanding of the needs of tech-industries, greatly influenced her approach to teaching and training methods." 
       social = [
         ["fa-twitter", "https://twitter.com/Tatjana_Kec"],
         ["fa-github", "https://github.com/TanjaKec"],
@@ -216,26 +215,27 @@ She worked at Pied Piper for years until they went belly up."""
       # Possibility to center items
       # center = true
       # Optional client title specifying the involvement
-      #title = "Used and trusted by"
+      # title = "Used and trusted by"
 
       # All the clients' logos are stored under 'static/img/logos'.
       # Replace them with your clients's logos.
       # Suggestion: .svg in the size of 280px*80px looks good
       [[params.clients]]
-        logo = "envato.jpg"
-        link = "#"
+        logo = "infostud_logo.png"
+        link = "https://www.infostudhub.rs"
 
       [[params.clients]]
-        logo = "designmodo.jpg"
-        link = "#"
+        logo = "ThingsSolver.png"
+        link = "https://thingsolver.com"
 
       [[params.clients]]
-        logo = "themeforest.jpg"
-        link = "#"
+        logo = "VibeNetwork.jpg"
+        link = "http://vibe.rs"
 
       [[params.clients]]
-        logo = "creative-market.jpg"
-        link = "#"
+        logo = "startit-logo.png"
+        link = "https://startit.rs"
+
 
   # Contact section
   [params.contact]

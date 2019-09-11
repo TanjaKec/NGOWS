@@ -732,12 +732,12 @@ section h3.section-subheading {
 
 @media(min-width:992px) {
     aside.clients img {
-        margin: 50px auto;
+        margin: 15px auto;
     }
 }
 
 aside.clients img {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 aside .heading {
