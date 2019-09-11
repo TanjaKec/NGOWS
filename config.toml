@@ -19,7 +19,7 @@ googleAnalytics = ""
   # information about you and your website.
   name = "Sister Analyst"
   description = "Advancing data to conversation"
-  email = "tatjana@rladies.org"
+  email = "info@sisteranalyst.org"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -241,10 +241,10 @@ She worked at Pied Piper for years until they went belly up."""
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Acquire the skills of XXI century."
-    buttonText = "Send message"
+    subtitle  = "email: info@sisteranalyst.org<br></br>phone: +381.(0)65.6055.903"
+   # buttonText = "Send message"
     
-    netlify = false
+   #  netlify = false
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -262,33 +262,33 @@ She worked at Pied Piper for years until they went belly up."""
     # as an example the mailout plugin from caddy.
     # Provide the post URL for the form and depending on the provider
     # add some custom JS script to finish the implementation.
-    postURL = "https://test.formspree.io//"
+   # postURL = "https://test.formspree.io//"
 
-    email = "tatjana@rladies.org"
+   # email = "tatjana@rladies.org"
 
     # Success and error message overwrite for async contact form
-    thanks = "Thank you for awesomely contacting us."
-    error = "Message could not be send. Please contact us at tatjana.keco@gmail.com instead."
+  #  thanks = "Thank you for awesomely contacting us."
+  #  error = "Message could not be send. Please contact us at tatjana.keco@gmail.com instead."
 
     [params.contact.captcha]
-    sitekey = ""
+  #  sitekey = ""
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
-      text = "Your Name *"
-      warning = "Please enter your name."
+   #   text = "Your Name *"
+   #   warning = "Please enter your name."
 
     [params.contact.form.email]
-      text = "Your Email *"
-      warning = "Please enter your email address."
+    #  text = "Your Email *"
+    #  warning = "Please enter your email address."
 
     [params.contact.form.phone]
-      text = "Your Phone *"
-      warning = "Please enter your phone number."
+   # text = "Your Phone *"
+    #  warning = "Please enter your phone number."
 
-    [params.contact.form.message]
-      text = "Your Message *"
-      warning = "Please enter a message."
+  #  [params.contact.form.message]
+    #  text = "Your Message *"
+    #  warning = "Please enter a message."
 
       # Add optional form fields to identify contact forms
       #[[params.contact.form.hidden]]

@@ -73,7 +73,7 @@
                   {{ end }}
                 </div>
                 <div class="captcha-error text-danger" id="captcha-error">
-                  Message is not sendable due to captcha not loadable. Please contact us at {{ (or $contact.email .Site.Params.email) -}}.
+                  We hope to hear from you.
                 </div>
                 <div class="text-danger" id="error" style="display:none;">
                   {{ with $contact.error }}
@@ -98,9 +98,7 @@
                     <span class="filler"></span>
                   </div>
                 {{ else }}
-                  <button type="submit" value="Submit" class="btn btn-xl">
-                    {{ print $contact.buttonText }}
-                  </button>
+               
                 {{ end }}
               </div>
             </div>
