@@ -241,7 +241,7 @@ googleAnalytics = ""
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "email: info@sisteranalyst.org<br></br>phone: +381.(0)65.6055.903"
+    subtitle  = "email: sisteranalyst.org@gmail.com<br></br>phone: +381.(0)65.6055.903"
    # buttonText = "Send message"
     
    #  netlify = false
