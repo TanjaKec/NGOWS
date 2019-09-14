@@ -3,6 +3,7 @@ baseurl = "https://sisteranalyst.org/"
 languageCode = "en-us"
 title = "Sister Analyst"
 theme = "hugo-agency-theme"
+tags = ["Data Literacy", "Tatjana Kecojevic", "Data Science"]
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
