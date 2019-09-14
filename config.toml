@@ -173,7 +173,7 @@ googleAnalytics = ""
     [[params.team.members]]
       img = "TK.jpg"
       name = "Tatjana Kecojević"
-      position = "Founder and Chief Executive"
+      position = "founder and director"
       #reportsTo = "CTO"
     #  livesIn = "[Belgrade, Serbia](https://www.google.com/maps/place/Београд/@44.576425,11.4266353,5z/data=!4m5!3m4!1s0x475a7aa3d7b53fbd:0x1db8645cf2177ee4!8m2!3d44.786568!4d20.4489216?hl=sr)"
      # scope = [
@@ -190,13 +190,13 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
+      img = "katica.jpg"
+      name = "Katica Ristić"
+      position = "curriculum lead instructor"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/KaticaR1"],
+        ["fa-facebook", "https://www.facebook.com/katica.ristic.3"],
+        ["fa-linkedin", "https://www.linkedin.com/in/katica-ristić-542011148/"]
       ]
 
     [[params.team.members]]
