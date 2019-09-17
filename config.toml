@@ -183,7 +183,7 @@ googleAnalytics = ""
     #    "Open Source [community management](https://www.linkedin.com/in/tatjana-kecojevic-803704143/)"
     #  ]
       # For bio markdown and even multiline strings are available.
-      bio = "Tatjana is ever-evolving Data Scientist. Her experience in academia and understanding of the needs of tech-industries, greatly influenced her approach to teaching and training methods." 
+    # bio = "Tatjana is ever-evolving Data Scientist. Her experience in academia and understanding of the needs of tech-industries, greatly influenced her approach to teaching and training methods." 
       social = [
         ["fa-twitter", "https://twitter.com/Tatjana_Kec"],
         ["fa-github", "https://github.com/TanjaKec"],
@@ -201,13 +201,13 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "3.jpg"
+      img = "valentina.jpg"
       name = "Diana Pertersen"
-      position = "Lead Developer"
+      position = "community mentor"
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-linkedin", "https://www.linkedin.com/in/valentina-đorđević/"]
       ]
 
   # Client section
