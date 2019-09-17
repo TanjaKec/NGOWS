@@ -202,7 +202,7 @@ googleAnalytics = ""
 
     [[params.team.members]]
       img = "valentina.jpg"
-      name = "Diana Pertersen"
+      name = "Valentina Djordjević"
       position = "community mentor"
       social = [
         ["fa-twitter", "#"],
