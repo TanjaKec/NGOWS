@@ -237,6 +237,9 @@ googleAnalytics = ""
         logo = "startit-logo.png"
         link = "https://startit.rs"
 
+      [[params.clients]]
+        logo = "uradi-zaradi.png"
+        link = "https://uradi-zaradi.rs/"
 
   # Contact section
   [params.contact]
