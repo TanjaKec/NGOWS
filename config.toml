@@ -315,7 +315,7 @@ googleAnalytics = ""
 
     [[params.footer.social]]
       icon = "fa-facebook"
-      link = "#"
+      link = "https://www.facebook.com/sisteranalyst/"
       title = "Facebook"
 
     [[params.footer.social]]
