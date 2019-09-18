@@ -182,7 +182,7 @@ googleAnalytics = ""
     #    "Maintainer for [awesome-project](#)",
     #    "Open Source [community management](https://www.linkedin.com/in/tatjana-kecojevic-803704143/)"
     #  ]
-      # For bio markdown and even multiline strings are available.
+    # For bio markdown and even multiline strings are available.
     # bio = "Tatjana is ever-evolving Data Scientist. Her experience in academia and understanding of the needs of tech-industries, greatly influenced her approach to teaching and training methods." 
       social = [
         ["fa-twitter", "https://twitter.com/Tatjana_Kec"],
