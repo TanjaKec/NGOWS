@@ -310,7 +310,7 @@ googleAnalytics = ""
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "#"
+      link = "https://twitter.com/sisteranalyst"
       title = "Twitter"
 
     [[params.footer.social]]
@@ -320,7 +320,7 @@ googleAnalytics = ""
 
     [[params.footer.social]]
       icon = "fa-linkedin"
-      link = "#"
+      link = "https://www.linkedin.com/company/11262834/"
       title = "LinkedIn"
 
     [[params.footer.quicklinks]]
