@@ -226,8 +226,16 @@ googleAnalytics = ""
         link = "https://www.infostudhub.rs"
 
       [[params.clients]]
+        logo = "GEOLYTIX.png"
+        link = "https://geolytix.co.uk/"
+
+      [[params.clients]]
         logo = "ThingsSolver.png"
         link = "https://thingsolver.com"
+
+      [[params.clients]]
+        logo = "uradi-zaradi.png"
+        link = "https://uradi-zaradi.rs/"
 
       [[params.clients]]
         logo = "VibeNetwork.jpg"
@@ -237,9 +245,6 @@ googleAnalytics = ""
         logo = "startit-logo.png"
         link = "https://startit.rs"
 
-      [[params.clients]]
-        logo = "uradi-zaradi.png"
-        link = "https://uradi-zaradi.rs/"
 
   # Contact section
   [params.contact]
