@@ -234,12 +234,12 @@ googleAnalytics = ""
         link = "https://thingsolver.com"
 
       [[params.clients]]
-        logo = "uradi-zaradi.png"
-        link = "https://uradi-zaradi.rs/"
-
-      [[params.clients]]
         logo = "VibeNetwork.jpg"
         link = "http://vibe.rs"
+
+      [[params.clients]]
+        logo = "uradi-zaradi.png"
+        link = "https://uradi-zaradi.rs/"
 
       [[params.clients]]
         logo = "startit-logo.png"
