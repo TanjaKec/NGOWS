@@ -86,7 +86,7 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "Training"
-    subtitle = "Data Literacy is critical driver for innovation."
+    subtitle = "Data Literacy is a critical driver for innovation."
 
     [[params.services.row]]
 
@@ -165,7 +165,7 @@ googleAnalytics = ""
     # Possibility to center items
     #center = true
     title = "Our amazing team"
-    subtitle = "We invest in building a diverse and inclusive environment within DS community."
+    subtitle = "We invest in building a diverse and inclusive environment within the DS community."
     description = "We believe that everyone deserves respect and equal treatment regardless of gender, race, ethnicity, age, disability, sexual orientation, gender identity or cultural background. When people feel appreciated and included, they can be more creative, innovative, and successful."
 
     # All team member's pictures are stored under 'static/img/team'.
