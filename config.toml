@@ -210,6 +210,16 @@ googleAnalytics = ""
         ["fa-linkedin", "https://www.linkedin.com/in/valentina-đorđević/"]
       ]
 
+    [[params.team.members]]
+      img = "jovana.jpg"
+      name = "Jovana Savić"
+      position = "community mentor"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "https://www.linkedin.com/in/jovana-savić-12aa305a/"]
+      ]
+
   # Client section
     [params.clients_list]
       enable = true
