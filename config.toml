@@ -191,13 +191,13 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "katica.jpg"
-      name = "Katica Ristić"
+      img = "jovana.jpg"
+      name = "Jovana Savić"
       position = "curriculum lead instructor"
       social = [
-        ["fa-twitter", "https://twitter.com/KaticaR1"],
-        ["fa-facebook", "https://www.facebook.com/katica.ristic.3"],
-        ["fa-linkedin", "https://www.linkedin.com/in/katica-ristić-542011148/"]
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "https://www.linkedin.com/in/jovana-savić-12aa305a/"]
       ]
 
     [[params.team.members]]
@@ -208,16 +208,6 @@ googleAnalytics = ""
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
         ["fa-linkedin", "https://www.linkedin.com/in/valentina-đorđević/"]
-      ]
-
-    [[params.team.members]]
-      img = "jovana.jpg"
-      name = "Jovana Savić"
-      position = "community mentor"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "https://www.linkedin.com/in/jovana-savić-12aa305a/"]
       ]
 
   # Client section
