@@ -1,873 +1,1834 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html><html lang="en-us" >
 
-  <head>
+<head>
+
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Advancing data to conversation">
-  <meta name="author" content="Sister Analyst">
-  <meta name="generator" content="Hugo 0.60.1" />
-  <title>Sister Analyst</title>
-  <!-- Stylesheets -->
-  <link href="/css/bootstrap-v3.3.7/bootstrap.min.css" rel="stylesheet">
-  <link href="/css/agency.css" rel="stylesheet">
-  <link href="/css/jquery.form-validator-v2.3.44/theme-default.min.css" rel="stylesheet">
-
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
-
-  <!-- Custom Fonts -->
-  <link href="/font-awesome-v4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
   
-    <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+  
+  <meta name="generator" content="Wowchemy 5.0.0-beta.1 for Hugo">
   
 
   
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+  
   
 
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Sister Analyst is a not for profit social enterprise focussing on the objective of increasing the number of women involved in the field of DS and AI.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#104E8B">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.fa34e79906d7dd4f376552a516f5832c.css">
+
+  
+
+
+
+
+  
+
+  
+
+
+  
+  
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="SisterAnalyst">
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu3c2fcea4216010928feca9f946635fcf_88647_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu3c2fcea4216010928feca9f946635fcf_88647_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@SisterAnalyst">
+  <meta property="twitter:creator" content="@SisterAnalyst">
+  
+  <meta property="og:site_name" content="SisterAnalyst">
+  <meta property="og:url" content="/">
+  <meta property="og:title" content="SisterAnalyst">
+  <meta property="og:description" content="Sister Analyst is a not for profit social enterprise focussing on the objective of increasing the number of women involved in the field of DS and AI."><meta property="og:image" content="/media/SA_hex.png">
+  <meta property="twitter:image" content="/media/SA_hex.png"><meta property="og:locale" content="en-us">
+  
+    <meta property="og:updated_time" content="2030-06-01T13:00:00&#43;00:00">
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "/"
+}
+</script>
+
+
+  
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "@id": "/",
+  "name": "Sister Analyst",
+  "logo": "/images/icon_hu3c2fcea4216010928feca9f946635fcf_88647_192x192_fill_lanczos_center_2.png",
+  "image": "/media/SA_hex.png",
+  
+  
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Karadjordjeva 13",
+    "addressLocality": "11080 Zemun",
+    "addressRegion": "Belgrade, Serbia",
+    "postalCode": "",
+    "addressCountry": "Serbia"
+  },
+  
+  "telephone": "+381(0)65.6055.903",
+  "url": "/"
+}
+</script>
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>SisterAnalyst</title>
+
 </head>
 
 
-  <body id="page-top" class="index">
-    <!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top">
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper  ">
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.df91b69a1478cc5b32287044fbdb4d7f.js"></script>
+
+  
+
+<aside class="search-results" id="search">
   <div class="container">
+    <section class="search-header">
 
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header page-scroll">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      
-        <a class="navbar-brand page-scroll" href="/#page-top">
-          
-          <img src="/img/logo_sa.png" class="img-responsive" alt="Sister Analyst">
-        </a>
-      
-
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="hidden">
-          <a href="/#page-top"></a>
-        </li>
-
-        
-
-        
-          <li>
-            <a class="page-scroll" href="/#services">Services</a>
-          </li>
-        
-
-        
-          <li>
-            <a class="page-scroll" href="/#portfolio">Portfolio</a>
-          </li>
-        
-
-        
-          <li>
-            <a class="page-scroll" href="/#about">About</a>
-          </li>
-        
-
-        
-          <li>
-            <a class="page-scroll" href="/#team">Team</a>
-          </li>
-        
-
-        
-          <li>
-            <a class="page-scroll" href="/#contact">Contact</a>
-          </li>
-        
-
-        
-          <li>
-            <a href="http://klikr.rbind.io">External link</a>
-          </li>
-        
-      </ul>
-    </div>
-    <!-- /.navbar-collapse -->
-  </div>
-  <!-- /.container-fluid -->
-</nav>
-
-    <!-- Hero -->
-<header>
-  <div class="container">
-    <div class="intro-text">
-      <div class="intro-lead-in">Advancing data to conversation</div>
-      <div class="intro-heading">Sister Analyst</div>
-      <a href="#services" class="page-scroll btn btn-xl">What we do</a>
-    </div>
-  </div>
-</header>
-
-
-    
-      <!-- Services -->
-<section id="services">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Training</h2>
-        <h3 class="section-subheading text-muted">Data Literacy is a critical driver for innovation.</h3>
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
       </div>
-    </div>
-    
-      <div class="row text-center">
+
+      <div id="search-box">
         
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-book fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading"><a href="/">courses</a></h4>
-            <p class="text-muted">Our courses are aimed at young women and non binary people from any social background with the desire to enter the rapidly expanding world of data.</p>
-          </div>
-        
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading"><a href="/">community</a></h4>
-            <p class="text-muted">We are connecting women to a community of other like-minded and professional women and companies who can support them in their data-literacy endeavour.</p>
-          </div>
-        
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading"><a href="/">corporate training</a></h4>
-            <p class="text-muted">We can help companies to up-skill existing staff in and out analytical roles to raise the awareness of benefits of data driven functioning and raise digital literacy across the organisation.</p>
-          </div>
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
         
       </div>
-    
-  </div>
-</section>
 
-    
+      
 
-    
-      <!-- Portfolio Grid Section -->
-<section id="portfolio" class="bg-light-gray">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Portfolio</h2>
-        <h3 class="section-subheading text-muted">Learn what we do and how we do it</h3>
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
       </div>
-    </div>
-    <div class="row">
 
-      
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            
-            <img src="/img/portfolio/motivation_a.jpg" class="img-responsive" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Motivation</h4>
-            <p class="text-muted">Why do we do it?</p>
-          </div>
-        </div>
-      
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            
-            <img src="/img/portfolio/training_a.jpg" class="img-responsive" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Training</h4>
-            <p class="text-muted">Courses</p>
-          </div>
-        </div>
-      
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            
-            <img src="/img/portfolio/community_a.jpg" class="img-responsive" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Community</h4>
-            <p class="text-muted">Working together</p>
-          </div>
-        </div>
-      
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            
-            <img src="/img/portfolio/RandD_a.jpg" class="img-responsive" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Research &amp; Development</h4>
-            <p class="text-muted">Working With Academia</p>
-          </div>
-        </div>
-      
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            
-            <img src="/img/portfolio/partners_a.jpg" class="img-responsive" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Partners</h4>
-            <p class="text-muted">Working together</p>
-          </div>
-        </div>
-      
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            
-            <img src="/img/portfolio/corp-act_a.jpg" class="img-responsive" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Corporate Activity</h4>
-            <p class="text-muted">Upskilling</p>
-          </div>
-        </div>
-      
-
-    </div>
-  </div>
-</section>
-
-    
-
-    
-      <!-- About Section -->
-<section id="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading">About</h2>
-        <h3 class="section-subheading text-muted">Social justice in a digital age</h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-12">
-        <ul class="timeline">
-
-          
-            <li >
-              <div class="timeline-image">
-                
-                <img class="img-circle img-responsive" src="/img/about/1.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4></h4>
-                  <h4 class="subheading">Who we are</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">We are a not for profit social enterprise focussing on the objective of increasing the number of women involved in the field of data science. This is our primary mission; we do it to help address the gender imbalance in tech industries and to enable women to fulfil their potential regardless of their background.</p>
-                </div>
-              </div>
-            </li>
-          
-            <li class="timeline-inverted" >
-              <div class="timeline-image">
-                
-                <img class="img-circle img-responsive" src="/img/about/2.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4></h4>
-                  <h4 class="subheading">Our Principles</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Our principles are founded on the four pillars of diversity, data literacy, transparency and inclusivity. We believe that everyone with the ability and determination should be able to flourish in the increasingly consequential, social and commercial world of DS.</p>
-                </div>
-              </div>
-            </li>
-          
-            <li >
-              <div class="timeline-image">
-                
-                <img class="img-circle img-responsive" src="/img/about/3.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4></h4>
-                  <h4 class="subheading">Our Courses</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Our courses are specifically structured to help address some of the learning obstacles that women/non binary individuals may confront when entering an emerging field such as data science, where women are a minority.</p>
-                </div>
-              </div>
-            </li>
-          
-            <li class="timeline-inverted" >
-              <div class="timeline-image">
-                
-                <img class="img-circle img-responsive" src="/img/about/4.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4></h4>
-                  <h4 class="subheading">Our Goal</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Sister Analyst aims to empower women in an underrepresented tech industry by developing technical as well as gender specific skills to achieve equitable representation.</p>
-                </div>
-              </div>
-            </li>
-          
-
-          <li class="timeline-inverted">
-            <div class="timeline-image">
-              <h4>Be part<!-- raw HTML omitted -->of our<!-- raw HTML omitted -->story!</h4>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-    
-
-    
-      <!-- Team Section -->
-<section id="team" class="bg-light-gray">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Our amazing team</h2>
-        <h3 class="section-subheading text-mutedwith ">We invest in building a diverse and inclusive environment within the DS community.</h3>
-      </div>
-    </div>
-    <div class="row flexbox ">
-      
-        <div class="col-sm-3 col">
-          <div class="team-member">
-            
-            <img src="/img/team/TK.jpg" class="img-responsive img-circle" alt="Tatjana Kecojević">
-            <h3>Tatjana Kecojević</h3>
-
-            
-            <h4>founder and director</h4>
-            
-            
-
-            
-
-            
-
-            <ul class="list-inline social-buttons">
-              
-                <li><a href="https://twitter.com/Tatjana_Kec"><i class="fa fa-twitter"></i></a></li>
-              
-                <li><a href="https://github.com/TanjaKec"><i class="fa fa-github"></i></a></li>
-              
-                <li><a href="https://www.linkedin.com/in/tatjana-kecojevic-803704143/"><i class="fa fa-linkedin"></i></a></li>
-              
-            </ul>
-
-            
-
-          </div>
-        </div>
-      
-        <div class="col-sm-3 col">
-          <div class="team-member">
-            
-            <img src="/img/team/jovana.jpg" class="img-responsive img-circle" alt="Jovana Savić">
-            <h3>Jovana Savić</h3>
-
-            
-            <h4>curriculum lead instructor</h4>
-            
-            
-
-            
-
-            
-
-            <ul class="list-inline social-buttons">
-              
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              
-                <li><a href="https://www.linkedin.com/in/jovana-savi%c4%87-12aa305a/"><i class="fa fa-linkedin"></i></a></li>
-              
-            </ul>
-
-            
-
-          </div>
-        </div>
-      
-        <div class="col-sm-3 col">
-          <div class="team-member">
-            
-            <img src="/img/team/valentina.jpg" class="img-responsive img-circle" alt="Valentina Djordjević">
-            <h3>Valentina Djordjević</h3>
-
-            
-            <h4>community mentor</h4>
-            
-            
-
-            
-
-            
-
-            <ul class="list-inline social-buttons">
-              
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              
-                <li><a href="https://www.linkedin.com/in/valentina-%c4%91or%c4%91evi%c4%87/"><i class="fa fa-linkedin"></i></a></li>
-              
-            </ul>
-
-            
-
-          </div>
-        </div>
-      
-    </div>
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <p class="large text-muted">We believe that everyone deserves respect and equal treatment regardless of gender, race, ethnicity, age, disability, sexual orientation, gender identity or cultural background. When people feel appreciated and included, they can be more creative, innovative, and successful.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-    
-
-    
-      <!-- Clients Aside -->
-<aside class="clients">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-<h4 class="heading"></h4>
-      </div>
-    </div>
-    <div class="row flexbox">
-
-      
-        <div class="col-md-3 col-sm-6 col">
-          
-          
-            <a href="https://www.infostudhub.rs">
-              <img src="/img/logos/infostud_logo.png" class="img-responsive img-centered" alt="">
-            </a>
-          
-        </div>
-      
-        <div class="col-md-3 col-sm-6 col">
-          
-          
-            <a href="https://geolytix.co.uk/">
-              <img src="/img/logos/GEOLYTIX.png" class="img-responsive img-centered" alt="">
-            </a>
-          
-        </div>
-      
-        <div class="col-md-3 col-sm-6 col">
-          
-          
-            <a href="https://thingsolver.com">
-              <img src="/img/logos/ThingsSolver.png" class="img-responsive img-centered" alt="">
-            </a>
-          
-        </div>
-      
-        <div class="col-md-3 col-sm-6 col">
-          
-          
-            <a href="http://vibe.rs">
-              <img src="/img/logos/VibeNetwork.jpg" class="img-responsive img-centered" alt="">
-            </a>
-          
-        </div>
-      
-        <div class="col-md-3 col-sm-6 col">
-          
-          
-            <a href="https://uradi-zaradi.rs/">
-              <img src="/img/logos/uradi-zaradi.png" class="img-responsive img-centered" alt="">
-            </a>
-          
-        </div>
-      
-        <div class="col-md-3 col-sm-6 col">
-          
-          
-            <a href="https://startit.rs">
-              <img src="/img/logos/startit-logo.png" class="img-responsive img-centered" alt="">
-            </a>
-          
-        </div>
-      
-
-    </div>
+    </section>
   </div>
 </aside>
 
+
+
+  <div class="page-header">
     
 
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">SisterAnalyst</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">SisterAnalyst</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/courses/"><span>Courses</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/join/"><span>Join Us</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/partners/"><span>Partners</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/coc/"><span>Code of Conduct</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact" data-target="#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/donate/"><span>Donate</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+    
     
       
-<!-- Contact Section -->
+    
+    
+    
+    
+    
+      
+      
+    
+    
+      
+      
+    
+  
 
-<section id="contact">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
+  
+    
+    
+  
 
-        
-        <h2 class="section-heading">Contact us</h2>
-        
+  
+  
 
-        
-        <h3 class="section-subheading text-muted">email: <a href="mailto:sisteranalyst.org@gmail.com">sisteranalyst.org@gmail.com</a><!-- raw HTML omitted --><!-- raw HTML omitted -->phone: +381.(0)65.6055.903</h3>
-        
+  
 
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="demo" class="home-section wg-blank dark " style="padding: 20px 0 20px 0;" >
+   <div class="home-section-bg  bg-image parallax" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(&#39;/media/headers/bubbles-wide.jpg&#39;);background-size: cover;background-position: center;"></div>
+    <div class="container">
+
+    
+      <div class="row  justify-content-center">
+      
+    
+
+      
+
+
+
+  <div class="col-12">
+    <center><b><h3> <span style="color: #FFFAF0">SisterAnalyst
+</span></h3></b></center>
+<center><b><h4> <span style="color: #FFFAF0"> Our mission is <br> to empower women and gender minority groups <br> through the practise and application of <br> DS and AI. </span></h4></b></center>
+<br>
+<center><span style="color: #FFFAF0"> We equip our community members with <br> data skills, opportunities and a global platform <br> for networking and knowledge sharing.</span> 
+<br>
+<center>
+<a href="https://sisanalyst.netlify.app/donate">
+<button class="button button2">Donate!</button>
+</a>
+</center>  
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: #EEEEE0; 
+  color: #104E8B; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #104E8B;
+  color: white;
+}
+
+</style>
+</html>
+
+  </div>
+
+
+
+    
       </div>
+    
+
     </div>
-    <div class="row">
-      <div class="col-lg-12">
-        <form
-          method="POST"
-          name="sentMessage"
-          id="contactForm" action="//formspree.io/tatjana@rladies.org%25!%28EXTRA%20string=info@sisteranalyst.org%29">
+  </section>
 
-          <fieldset>
-            <div class="row">
-              <div class="col-md-6">
+  
+  
+  
+  
 
-                
+  
 
-                
+  
 
-                
-              </div>
+  
 
-              <div class="col-md-6">
-              
+  
 
-              </div>
-              <div class="clearfix"></div>
-              <div class="col-lg-12 text-center">
-                <div class="text-success" id="success" style="display:none;">
-                  
-                    Thank you for contacting us.
-                  
-                </div>
-                <div class="captcha-error text-danger" id="captcha-error">
-                  We hope to hear from you.
-                </div>
-                <div class="text-danger" id="error" style="display:none;">
-                  
-                    Message could not be send. Please contact us at info@sisteranalyst.org instead.
-                  
-                </div><br />
-                
-               
-                
-              </div>
-            </div>
-            
-          </fieldset>
-        </form>
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="about" class="home-section wg-about  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+
+      
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      
+      
+      <img class="avatar avatar-square" src="/author/avatar_hu32c33d54388a452320d7fe8841ca4a6b_217494_270x270_fill_q75_lanczos_center.jpg" alt="">
+      
+
+      <div class="portrait-title">
+        <h2></h2>
+        
+
+        
+        <h3>
+          
+          <span></span>
+          
+        </h3>
+        
       </div>
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="/#contact"  aria-label="envelope">
+            <i class="fas fa-envelope big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://twitter.com/sisteranalyst" target="_blank" rel="noopener" aria-label="twitter">
+            <i class="fab fa-twitter big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://github.com/SisterAnalyst" target="_blank" rel="noopener" aria-label="github">
+            <i class="fab fa-github big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://www.facebook.com/SisterAnalyst" target="_blank" rel="noopener" aria-label="facebook">
+            <i class="fab fa-facebook big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://www.linkedin.com/company/11262834/" target="_blank" rel="noopener" aria-label="linkedin">
+            <i class="fab fa-linkedin big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
     </div>
   </div>
-</section>
+  <div class="col-12 col-lg-8">
+
+    
+    
+
+    <div class="article-style">
+      <p>We are a not for profit social enterprise focussing on the objective of increasing the number of women and gender minority groups involved in the field of data science and artificial intelligence. We do it to help address the gender bias in tech industries and to enable minority gender (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) individuals to fulfil their potential regardless of their background.</p>
+<p>We support our community members at every stage of their careers to gain a familiarity with the essential concepts and use of data science and artificial intelligence. We collaborate with our partners to run the courses and networking events, providing opportunities for leaders in the field (mostly women) to share their knowledge and experiences via informative presentations, discussions and mentoring.</p>
+<p>Our education programmes are aimed at women and gender minority groups from any social background with the desire to enter the rapidly expanding world of data.</p>
+<p>What we do:</p>
+<ul>
+<li>We run free DS/AI courses for women and gender minority groups</li>
+<li>We host tutorials, workshops and discussions</li>
+<li>We partner with companies to offer support for our events and to engage their DS staff through our volunteer instructor programme</li>
+</ul>
+
+    </div>
+
+    <div class="row">
+
+      
+
+      
+
+    </div>
+  </div>
+</div>
+
+
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="skills" class="home-section wg-featurette  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+
+      
+
+
+<div class="row featurette">
+  
+  <div class="col-md-12 section-heading">
+    <h1>We help develop skills</h1>
+    <p>in a safe and stimulating environment</p>
+  </div>
+  
+
+  
+
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    
+    <div class="featurette-icon"><i class="fas fa-chart-line"></i></div>
+    
+    <h3>data analytics</h3>
+    
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    
+    <div class="featurette-icon"><i class="fas fa-laptop-code"></i></div>
+    
+    <h3>coding</h3>
+    
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    
+    <div class="featurette-icon"><i class="fas fa-globe"></i></div>
+    
+    <h3>networking</h3>
+    
+  </div>
+  
+</div>
+
+
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="people" class="home-section wg-people  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+
+      
+
+
+
+
+
+
+
+
+
+<div class="row justify-content-center people-widget">
+  
+
+  
+
+  
+  
+
+  
+  <div class="col-md-12">
+    <h2 class="mb-4">Team</h2>
+  </div>
+  
+
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <img class="avatar avatar-square" src="/author/jovana-savic/avatar_hu2aa716c57564c4987f6abb8c74b7e62c_59976_270x270_fill_q75_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="portrait-title">
+      <h2>Jovana Savić</h2>
+      
+      <h3>BI developer | data pipeline software engineer</h3>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/JovanaSavic2" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/jovana-savi%c4%87-12aa305a/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <img class="avatar avatar-square" src="/author/tatjana-kecojevic/avatar_hua61bd2c86d22666ac13d5d10c59e6f1d_4219252_270x270_fill_q75_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="portrait-title">
+      <h2>Tatjana Kecojevic</h2>
+      
+      <h3>statistician and ever evolving data scientist</h3>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/Tatjana_Kec" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/tatjana-kecojevic-803704143/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <img class="avatar avatar-square" src="/author/valentina-%C4%91or%C4%91evic/avatar_hu5ab33171d4928698644629fed9b107b4_58217_270x270_fill_q75_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="portrait-title">
+      <h2>Valentina Đorđević</h2>
+      
+      <h3>data scientist</h3>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/valentina-%c4%91or%c4%91evi%c4%87/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      
+    </div>
+  </div>
+  
+  
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  
+</div>
+
+
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="contact" class="home-section wg-contact  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="col-12 col-lg-4 section-heading">
+            <h1>Contact</h1>
+            <p>Contact us to discuss how you can empower women and gender minorities in DS &amp; AI.</p>
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-12 col-lg-8">
+  
+
+  
+
+    
+    
+      
+      
+    
+
+    <div class="mb-3">
+      <form name="contact" method="POST" action="https://formspree.io/f/xjvpdaoy"  >
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputName">Name</label>
+          <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
+        </div>
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputEmail">Email</label>
+          <input type="email" name="email" class="form-control w-100" id="inputEmail" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="inputMessage">Message</label>
+          <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="Message" required></textarea>
+        </div>
+        
+        <button type="submit" class="btn btn-outline-primary px-3 py-2">Send</button>
+      </form>
+    </div>
+  
+
+  <ul class="fa-ul">
+
+    
+    <li>
+      <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+      <span id="person-email"><a href="mailto:sisteranalyst.org@gmail.com">sisteranalyst.org@gmail.com</a></span>
+    </li>
+    
+
+    
+    <li>
+      <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
+      <span id="person-telephone"><a href="tel:&#43;381%280%2965.6055.903">&#43;381(0)65.6055.903</a></span>
+    </li>
+    
+
+    
+    
+      
+      <li>
+        <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+        <span id="person-address">Karadjordjeva 13, 11080 Zemun, Belgrade, Serbia </span>
+      </li>
+    
+
+    
 
     
 
     
-      <!-- Footer section -->
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <span class="copyright">Published under the Apache License 2.0.</span>
+    <li>
+      <i class="fa-li fas fa-calendar-check fa-2x" aria-hidden="true"></i>
+      <a href="https://calendly.com/sisteranalyst-org" target="_blank" rel="noopener">Book an appointment</a>
+    </li>
+    
+
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <i class="fa-li fab fa-twitter fa-2x" aria-hidden="true"></i>
+      <a href="https://twitter.com/sisteranalyst" target="_blank" rel="noopener">DM Us</a>
+    </li>
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <i class="fa-li fab fa-skype fa-2x" aria-hidden="true"></i>
+      <a href="skype:SisterAnalyst" >Skype Us</a>
+    </li>
+    
+
+  </ul>
+
+  
+
+</div>
+
+
+    
       </div>
-      <div class="col-md-4">
-        <ul class="list-inline social-buttons">
+    
 
-          
-            <li><a href="https://twitter.com/sisteranalyst" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-          
-            <li><a href="https://www.facebook.com/sisteranalyst/" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-          
-            <li><a href="https://www.linkedin.com/company/11262834/" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-          
-
-        </ul>
-      </div>
-      <div class="col-md-4">
-        <ul class="list-inline quicklinks">
-
-          
-            <li><a href="#">Privacy Policy</a></li>
-          
-            <li><a href="#">Terms of Use</a></li>
-          
-
-        </ul>
-      </div>
     </div>
+  </section>
+
+
+
   </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
 </footer>
 
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/latex.min.js"></script>
+        
+      
+
     
 
     
-      <!-- Portfolio Modals -->
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
 
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Motivation</h2>
-              <p class="item-intro text-muted">Everyone has the right to have a chance in life.</p>
-              
-              <img class="img-responsive img-centered" src="/img/portfolio/motivation_b.jpg" alt="">
-              <p><!-- raw HTML omitted --></p>
-              <ul class="list-inline">
-                <li>Category: Why do we do it?</li>
-              </ul>
-              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    
+    
+    <script>const code_highlighting = true;</script>
+    
 
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Training</h2>
-              <p class="item-intro text-muted">XXI century digital interactions.</p>
-              
-              <img class="img-responsive img-centered" src="/img/portfolio/training_b.jpg" alt="">
-              <p><!-- raw HTML omitted --></p>
-              <ul class="list-inline">
-                <li>Category: Courses</li>
-              </ul>
-              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'event' : "Events",
+        'slides' : "Slides"
+        };
+    </script>
+    
 
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Community</h2>
-              <p class="item-intro text-muted">Data literacy is crucial to social justice work.</p>
-              
-              <img class="img-responsive img-centered" src="/img/portfolio/community_b.jpg" alt="">
-              <p><!-- raw HTML omitted --></p>
-              <ul class="list-inline">
-                <li>Category: Working together</li>
-              </ul>
-              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    
+    
 
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
         </div>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Research &amp; Development</h2>
-              <p class="item-intro text-muted">Transparency and pen research</p>
-              
-              <img class="img-responsive img-centered" src="/img/portfolio/RandD_b.jpg" alt="">
-              <p><!-- raw HTML omitted --></p>
-              <ul class="list-inline">
-                <li>Category: Working With Academia</li>
-              </ul>
-              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-            </div>
-          </div>
-        </div>
       </div>
-    </div>
-  </div>
+    </script>
+    
 
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Partners</h2>
-              <p class="item-intro text-muted">Shared energy, passion and enthusiasm</p>
-              
-              <img class="img-responsive img-centered" src="/img/portfolio/partners_b.jpg" alt="">
-              <p><!-- raw HTML omitted --></p>
-              <ul class="list-inline">
-                <li>Category: Working together</li>
-              </ul>
-              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Corporate Activity</h2>
-              <p class="item-intro text-muted">Data literacy in the shifting work paradigm</p>
-              
-              <img class="img-responsive img-centered" src="/img/portfolio/corp-act_b.jpg" alt="">
-              <p><!-- raw HTML omitted --></p>
-              <ul class="list-inline">
-                <li>Category: Upskilling</li>
-              </ul>
-              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    
+    
 
+    
+    
+    
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://sisteranalyst.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/js/wowchemy.min.54ff88c8c87ae58bd43cc3ffa77c2c4b.js"></script>
 
     
 
-    <!-- jQuery -->
-<script src="/js/jquery-v3.3.1/jquery.min.js"></script>
-
-<!-- Bootstrap Core -->
-<script src="/js/bootstrap-v3.3.7/bootstrap.min.js"></script>
-
-<!-- Form Validation -->
-<script src="/js/jquery.form-validator-v2.3.44/jquery.form-validator.min.js"></script>
-
-<!-- Custom Theme -->
-<script src="/js/agency.js"></script>
 
 
 
 
 
-
-
-
-
-  </body>
+</body>
 </html>

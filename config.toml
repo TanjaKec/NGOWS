@@ -1,337 +1,113 @@
-# Site settings
+theme = "starter-academic"
+# Configuration of Hugo
+# Guide: https://wowchemy.com/docs/get-started/
+# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
+#
+# This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
+# Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
+
+# Title of your site
+title = "SisterAnalyst"
+
+# The URL of your site.
+# End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 baseurl = "https://sisteranalyst.org/"
-languageCode = "en-us"
-title = "Sister Analyst"
-theme = "hugo-agency-theme"
-tags = ["Sister Analyst", "Data Literacy", "Tatjana Kecojevic", "Data Science"]
 
-# Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+# Enter a copyright notice to display in the site footer.
+# To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
+copyright = ""
 
-[params]
-  # You can use Markdown syntax for urls [text](//url.to/source) or
-  # most longer texts.
-  #
-  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
-  # for more icons. The icons are represented by their corresponding
-  # CSS class.
+############################
+## Advanced options below ##
+############################
 
-  # To provide some metadata for search engines feel free to add a few
-  # information about you and your website.
-  name = "Sister Analyst"
-  description = "Advancing data to conversation"
-  email = "info@sisteranalyst.org"
+# Get last modified date for content from Git?
+enableGitInfo = false
 
-  # Link custom assets relative to /static
-  custom_css = []
-  custom_js  = []
-  favicon    = "favicon.ico"
+# Default language to use (if you setup multilingual support)
+defaultContentLanguage = "en"
+hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
+defaultContentLanguageInSubdir = false
+removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issues/5687
 
-  # Possibility to disable external/additional fonts
-  # Exception: Fontawesome
-  disableFonts = false
+summaryLength = 30  # Listing summary length in words. Also, see `abstract_length` in `params.toml`.
+paginate = 10  # Number of items per page in paginated lists.
+enableEmoji = true
+enableRobotsTXT = true
+footnotereturnlinkcontents = "<sup>^</sup>"
+ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 
-  # 404 error customization
-  [params.error404]
-    heading = "Page couldn't be found"
-    text = "Please visit [this page](/)"
+[permalinks]
+  # If only creating events which are talks, we can optimize event URLs for talks.
+  event = "/talk/:slug/"
+  # Workaround Hugo publishing taxonomy URLs as plurals - consistently use singular across Academic.
+  authors = "/author/:slug/"
+  tags = "/tag/:slug/"
+  categories = "/category/:slug/"
+  publication_types = "/publication-type/:slug/"
 
-  # Optional piwik tracking
-  # [params.analytics.piwik]
-  #  URL = "https://stats.example.com"
-  #  ID = "42"
-  #  # Track all subdomains with "*.example.com"
-  #  domain = "www.example.com"
-  #  # Optional integrity check hash
-  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+[outputs]
+  home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
+  section = [ "HTML", "RSS" ]
 
-  # Navigation
-  [params.navigation]
-    brand = "Sister Analyst"
-    # Optional logo as brand stored in img/
-    logo = "logo_sa.png"
-    services = "Services"
-    portfolio = "Portfolio"         
-    about = "About"
-    team = "Team"
-    contact = "Contact"
+[mediaTypes."application/manifest+json"]
+  suffixes = ["webmanifest"]
 
-    # Add custom links. Those can be pre- and postpended to the default menu above.
-    # Use the weight attribute to order your custom links. Uncomment the example
-    # below and replace the values with your own.
+[outputFormats.WebAppManifest]
+  mediaType = "application/manifest+json"
+  rel = "manifest"
 
-    # prepended links
-    #[[menu.prepend]]
-    #  url = "http://gohugo.io"
-    #  name = "Hugo"
-    #  weight = 10
+# Configure the Markdown renderer.
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Enable user to embed HTML snippets in Markdown content.
+  [markup.highlight]
+    codeFences = false  # Disable Hugo's code highlighter as it conflicts with Academic's highligher.
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
 
-    # postpended links
-    [[menu.postpend]]
-      url = "http://klikr.rbind.io"
-      name = "External link"
-      weight = 10
+[imaging]
+  resampleFilter = "lanczos"
+  quality = 75
+  anchor = "smart"  # Anchor for cropping. Options include Smart and Center.
 
+# Taxonomies.
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  publication_type = "publication_types"
+  author = "authors"
 
-  # Hero section
-  [params.hero]
-    # To change the background image of the hero, replace 'header-bg.jpg' in
-    # the 'static/img' folder.
-    subtitle = "Sister Analyst"
-    title = "Advancing data to conversation"
-    buttonText = "What we do"
+# Related content.
+[related]
+  threshold = 80.0
+  includeNewer = true
+  toLower = true
 
+  [[related.indices]]
+    name = "title"
+    weight = 60.0
 
-  # Services section
-  [params.services]
-    enable = true
-    title = "Training"
-    subtitle = "Data Literacy is a critical driver for innovation."
+  [[related.indices]]
+    name = "summary"
+    weight = 50.0
 
-    [[params.services.row]]
+  [[related.indices]]
+    name = "tags"
+    weight = 80.0
 
-    [[params.services.row.list]]
-      icon = "fa-book"
-      title = "courses"
-      description = "Our courses are aimed at young women and non binary people from any social background with the desire to enter the rapidly expanding world of data."
-      url = "#"
+  [[related.indices]]
+    name = "categories"
+    weight = 70.0
 
-    [[params.services.row.list]]
-      icon = "fa-globe"
-      title = "community"
-      description = "We are connecting women to a community of other like-minded and professional women and companies who can support them in their data-literacy endeavour."
-      url = "#"
+  [[related.indices]]
+    name = "authors"
+    weight = 20.0
 
-    [[params.services.row.list]]
-      icon = "fa-laptop"
-      title = "corporate training"
-      description = "We can help companies to up-skill existing staff in and out analytical roles to raise the awareness of benefits of data driven functioning and raise digital literacy across the organisation."
-      url = "#"
-
-  # Portfolio section
-  [params.portfolio]
-    enable = true
-    # All projects defined in their own files. You can find example projects
-    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
-    # at the root of this Hugo site.
-    # For more informtion take a look at the README.
-    title = "Portfolio"
-    subtitle = "Learn what we do and how we do it"
-
-    [params.portfolio.modal]
-      client = "Client"
-      date = "Date"
-      category = "Category"
-      buttonText = "Close"
-
-
-    # About section
-  [params.about]
-    enable = true
-    title = "About"
-    subtitle = "Social justice in a digital age"
-    endpoint = "Be part<br>of our<br>story!"
-
-    # The events will be listed from the top to the bottom.
-    # All images are stored under 'static/img/about'.
-    # Replace them with your own.
-    [[params.about.events]]
-      img = "1.jpg"
-      title = "Who we are"
-      description = "We are a not for profit social enterprise focussing on the objective of increasing the number of women involved in the field of data science. This is our primary mission; we do it to help address the gender imbalance in tech industries and to enable women to fulfil their potential regardless of their background."
-
-    [[params.about.events]]
-      img = "2.jpg"
-      title = "Our Principles"
-      description = "Our principles are founded on the four pillars of diversity, data literacy, transparency and inclusivity. We believe that everyone with the ability and determination should be able to flourish in the increasingly consequential, social and commercial world of DS."
-
-    [[params.about.events]]
-      img = "3.jpg"
-      title = "Our Courses"
-      description = "Our courses are specifically structured to help address some of the learning obstacles that women/non binary individuals may confront when entering an emerging field such as data science, where women are a minority."
-
-    [[params.about.events]]
-      img = "4.jpg"
-      title = "Our Goal"
-      description = "Sister Analyst aims to empower women in an underrepresented tech industry by developing technical as well as gender specific skills to achieve equitable representation."
-
-  [params.post]
-      title = "What we do"
-      url = "/post/"
-
-  # Team section
-  [params.team]
-    enable = true
-    # Possibility to center items
-    #center = true
-    title = "Our amazing team"
-    subtitle = "We invest in building a diverse and inclusive environment within the DS community."
-    description = "We believe that everyone deserves respect and equal treatment regardless of gender, race, ethnicity, age, disability, sexual orientation, gender identity or cultural background. When people feel appreciated and included, they can be more creative, innovative, and successful."
-
-    # All team member's pictures are stored under 'static/img/team'.
-    # Replace them with your own too.
-    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
-    [[params.team.members]]
-      img = "TK.jpg"
-      name = "Tatjana Kecojević"
-      position = "founder and director"
-      #reportsTo = "CTO"
-    #  livesIn = "[Belgrade, Serbia](https://www.google.com/maps/place/Београд/@44.576425,11.4266353,5z/data=!4m5!3m4!1s0x475a7aa3d7b53fbd:0x1db8645cf2177ee4!8m2!3d44.786568!4d20.4489216?hl=sr)"
-     # scope = [
-    #    "UX for [member dashboard](#)",
-    #    "Maintainer for [awesome-project](#)",
-    #    "Open Source [community management](https://www.linkedin.com/in/tatjana-kecojevic-803704143/)"
-    #  ]
-    # For bio markdown and even multiline strings are available.
-    # bio = "Tatjana is ever-evolving Data Scientist. Her experience in academia and understanding of the needs of tech-industries, greatly influenced her approach to teaching and training methods." 
-      social = [
-        ["fa-twitter", "https://twitter.com/Tatjana_Kec"],
-        ["fa-github", "https://github.com/TanjaKec"],
-        ["fa-linkedin", "https://www.linkedin.com/in/tatjana-kecojevic-803704143/"]
-      ]
-
-    [[params.team.members]]
-      img = "jovana.jpg"
-      name = "Jovana Savić"
-      position = "curriculum lead instructor"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "https://www.linkedin.com/in/jovana-savić-12aa305a/"]
-      ]
-
-    [[params.team.members]]
-      img = "valentina.jpg"
-      name = "Valentina Djordjević"
-      position = "community mentor"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "https://www.linkedin.com/in/valentina-đorđević/"]
-      ]
-
-  # Client section
-    [params.clients_list]
-      enable = true
-      # Possibility to center items
-      # center = true
-      # Optional client title specifying the involvement
-      # title = "Used and trusted by"
-
-      # All the clients' logos are stored under 'static/img/logos'.
-      # Replace them with your clients's logos.
-      # Suggestion: .svg in the size of 280px*80px looks good
-      [[params.clients]]
-        logo = "infostud_logo.png"
-        link = "https://www.infostudhub.rs"
-
-      [[params.clients]]
-        logo = "GEOLYTIX.png"
-        link = "https://geolytix.co.uk/"
-
-      [[params.clients]]
-        logo = "ThingsSolver.png"
-        link = "https://thingsolver.com"
-
-      [[params.clients]]
-        logo = "VibeNetwork.jpg"
-        link = "http://vibe.rs"
-
-      [[params.clients]]
-        logo = "uradi-zaradi.png"
-        link = "https://uradi-zaradi.rs/"
-
-      [[params.clients]]
-        logo = "startit-logo.png"
-        link = "https://startit.rs"
-
-
-  # Contact section
-  [params.contact]
-    enable = true
-    title = "Contact us"
-    subtitle  = "email: sisteranalyst.org@gmail.com<br></br>phone: +381.(0)65.6055.903"
-   # buttonText = "Send message"
-    
-   #  netlify = false
-
-    # Since this template is static, the contact form uses www.formspree.io as a
-    # proxy. The form makes a POST request to their servers to send the actual
-    # email. Visitors can send up to a 1000 emails each month for free.
-    #
-    # What you need to do for the setup?
-    #
-    # - set your email address under 'email' below
-    # - upload the generated site to your server
-    # - send a dummy email yourself to confirm your account
-    # - click the confirm link in the email from www.formspree.io
-    # - you're done. Happy mailing!
-
-    # It is possible to substitute formspring with other providers
-    # as an example the mailout plugin from caddy.
-    # Provide the post URL for the form and depending on the provider
-    # add some custom JS script to finish the implementation.
-   # postURL = "https://test.formspree.io//"
-
-   # email = "tatjana@rladies.org"
-
-    # Success and error message overwrite for async contact form
-  #  thanks = "Thank you for awesomely contacting us."
-  #  error = "Message could not be send. Please contact us at tatjana.keco@gmail.com instead."
-
-    [params.contact.captcha]
-  #  sitekey = ""
-
-    # 'warning' defines error messages for invalid inputs
-    [params.contact.form.name]
-   #   text = "Your Name *"
-   #   warning = "Please enter your name."
-
-    [params.contact.form.email]
-    #  text = "Your Email *"
-    #  warning = "Please enter your email address."
-
-    [params.contact.form.phone]
-   # text = "Your Phone *"
-    #  warning = "Please enter your phone number."
-
-  #  [params.contact.form.message]
-    #  text = "Your Message *"
-    #  warning = "Please enter a message."
-
-      # Add optional form fields to identify contact forms
-      #[[params.contact.form.hidden]]
-      #  name = "someID"
-      #  value = "example.com"
-      #
-      #[[params.contact.form.hidden]]
-      # Special values for name such as "page" and "site" will be autofilled
-      #  name = "page"
-
-  # Footer section
-  [params.footer]
-    enable = true
-    copyright = "Published under the Apache License 2.0."
-
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      link = "https://twitter.com/sisteranalyst"
-      title = "Twitter"
-
-    [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "https://www.facebook.com/sisteranalyst/"
-      title = "Facebook"
-
-    [[params.footer.social]]
-      icon = "fa-linkedin"
-      link = "https://www.linkedin.com/company/11262834/"
-      title = "LinkedIn"
-
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
-
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"
+# Install Wowchemy
+[module]
+  [[module.imports]]
+    path = "github.com/wowchemy/wowchemy-hugo-modules/wowchemy"
