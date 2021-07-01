@@ -21,7 +21,7 @@ then, get in touch to discuss how together we can empower women and gender minor
 <br>
 
 <center>
-<a href="https://sisanalyst.netlify.app/donate">
+<a href="https://sisteranalyst.org/donate/">
 <button class="button button2">Donate!</button>
 </a>
 </center> 
