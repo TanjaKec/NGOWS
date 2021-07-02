@@ -31,7 +31,7 @@ design:
 <center><b><h3> <span style="color: #FFFAF0">SisterAnalyst
 </span></h3></b></center>
 
-<center><b><h4> <span style="color: #FFFAF0"> Our mission is <br> to empower women and gender minority groups <br> through the practise and application of <br> DS and AI. </span></h4></b></center>
+<center><b><h4> <span style="color: #FFFAF0"> Our mission is <br> to empower women and gender minority groups <br> through the practice and application of <br> DS and AI. </span></h4></b></center>
 
 <br>
 <center><span style="color: #FFFAF0"> We equip our community members with <br> data skills, opportunities and a global platform <br> for networking and knowledge sharing.</span> 

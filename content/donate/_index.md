@@ -16,7 +16,7 @@ title: Donate!
 
 **Bank**: Komercijalna Banka AD Beograd
 
-**Bank's Address**: Svetog Save 14, 11000 Belgrade, Republik of Serbia
+**Bank Address**: Svetog Save 14, 11000 Belgrade, Republik of Serbia
 
 **IBAN**: RS35205007080005210477
 
@@ -38,5 +38,5 @@ title: Donate!
 
 <br>
 <center><h3><span style="color: #104E8B"><b><p>You can reach us at</span></h2></b></p>
-<a href="mailto:sisteranalyst.org@gmail.com"><button style="font-size:24px">Email us! <i class="fa fa-envelope"></i></button></a><br>We would love to her from you. </center>
+<a href="mailto:sisteranalyst.org@gmail.com"><button style="font-size:24px">Email us! <i class="fa fa-envelope"></i></button></a><br>We would love to hear from you. </center>
 
