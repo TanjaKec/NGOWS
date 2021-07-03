@@ -14,7 +14,7 @@ by offering space, fostering collaborations with data owners and industry, mento
 <ul>
   <li> are seeking an innovative partner for a long-term programme</li>
   <li> have laptops, time or something else to donate</li>
-  <li> are thinking of hiring one of our students</li> 
+  <li> are thinking of hiring one of our course participants</li> 
 </ul>
 then get in touch to discuss how together, we can empower women and gender minorities in DS and AI.</center> 
 <br>
