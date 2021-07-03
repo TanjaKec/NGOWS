@@ -37,6 +37,6 @@ title: Donate!
 <b><span style="color: #104E8B">Thank you! Together, we can create meaningful employment opportunities for talented women and gender minorities.</span></b>
 
 <br>
-<center><h3><span style="color: #104E8B"><b><p>You can reach us at</span></h2></b></p>
-<a href="mailto:sisteranalyst.org@gmail.com"><button style="font-size:24px">Email us! <i class="fa fa-envelope"></i></button></a><br>We would love to hear from you. </center>
+<center><h3><span style="color: #104E8B"><b><p>You can reach us at info@sisteranalyst.org</span></h2></b></p>
+<a href="mailto:info@sisteranalyst.org"><button style="font-size:24px">Email us! <i class="fa fa-envelope"></i></button></a><br>We would love to hear from you. </center>
 
