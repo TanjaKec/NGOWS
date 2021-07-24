@@ -4,7 +4,7 @@ draft: false
 linktitle: overview
 menu:
   example:
-    parent: Overview
+    parent: Fundamental DS and AI skills
     weight: 1
 title: Overview
 toc: true

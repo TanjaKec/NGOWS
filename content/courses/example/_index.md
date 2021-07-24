@@ -2,14 +2,14 @@
 date: "2021-06-09T00:00:00Z"
 draft: false
 lastmod: "2021-09-06T00:00:00Z"
-linktitle: Courses
+linktitle: Click here to see our programmes
 menu:
   example:
     name: 
     weight: 0
 summary: by supporting our organisation, you contribute to building diversity and inclusion in data driven working environment ecosystem. Companies participating in this programme benefit by gaining access to a diverse talent pool and data science consulting services.
  
-title: Overview
+title: Fundamental DS and AI skills
 toc: true
 type: docs
 weight: 1

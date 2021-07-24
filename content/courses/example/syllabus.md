@@ -4,7 +4,7 @@ draft: false
 linktitle: syllabus
 menu:
   example:
-    parent: Syllabus
+    parent: Fundamental DS and AI skills
     weight: 2
 title: Indicative Syllabus
 toc: true
