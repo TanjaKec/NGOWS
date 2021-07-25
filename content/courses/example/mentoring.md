@@ -127,7 +127,7 @@ To acknowledge the work and effort required from all parties involved in this pr
 
 ## Resources used
 
-Part of this guide is adopted from:
+This guide is adapted from:
 
 -	_Share. Learn. Grow. Mentor. A How-to Guide_ by [AICPA](https://www.aicpa.org/) Women’s Initiatives Executive Committee. Available at https://www.aicpa.org/Career/WomenintheProfession/DownloadableDocuments/mentor.pdf
 -	_Mentoring Programme Guidance: Step-by-Step Guide_ by [RIBA Architecture]( https://www.architecture.com). Available at https://www.architecture.com/-/media/gathercontent/mentoring-guidance/additional-documents/mentoringprogrammeguidanceastepbystepguidepdf.pdf

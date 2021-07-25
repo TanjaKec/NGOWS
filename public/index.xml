@@ -272,7 +272,7 @@ A mentor shell provide:&lt;/p&gt;
 &lt;h2 id=&#34;recognition-and-reward&#34;&gt;Recognition and reward&lt;/h2&gt;
 &lt;p&gt;To acknowledge the work and effort required from all parties involved in this programme two events are planned. The events will serve to promote and publicise the success of the programme by encouraging both mentors and mentees to talk about their experience and showcase their achievements.&lt;/p&gt;
 &lt;h2 id=&#34;resources-used&#34;&gt;Resources used&lt;/h2&gt;
-&lt;p&gt;Part of this guide is adopted from:&lt;/p&gt;
+&lt;p&gt;This guide is adapted from:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Share. Learn. Grow. Mentor. A How-to Guide&lt;/em&gt; by &lt;a href=&#34;https://www.aicpa.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AICPA&lt;/a&gt; Women’s Initiatives Executive Committee. Available at &lt;a href=&#34;https://www.aicpa.org/Career/WomenintheProfession/DownloadableDocuments/mentor.pdf&#34;&gt;https://www.aicpa.org/Career/WomenintheProfession/DownloadableDocuments/mentor.pdf&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Mentoring Programme Guidance: Step-by-Step Guide&lt;/em&gt; by &lt;a href=&#34;https://www.architecture.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RIBA Architecture&lt;/a&gt;. Available at &lt;a href=&#34;https://www.architecture.com/-/media/gathercontent/mentoring-guidance/additional-documents/mentoringprogrammeguidanceastepbystepguidepdf.pdf&#34;&gt;https://www.architecture.com/-/media/gathercontent/mentoring-guidance/additional-documents/mentoringprogrammeguidanceastepbystepguidepdf.pdf&lt;/a&gt;&lt;/li&gt;
@@ -328,7 +328,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-893712654&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-837421965&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -338,7 +338,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-893712654&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-837421965&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
