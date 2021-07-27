@@ -177,15 +177,15 @@ on a real-life data problem that involves a complete data analysis, from data im
       <link>/courses/example/mentoring/</link>
       <pubDate>Wed, 09 Jun 2021 00:00:00 +0100</pubDate>
       <guid>/courses/example/mentoring/</guid>
-      <description>&lt;p&gt;The mentoring programme goal is to guide and help the candidates to complete this course and to inspire, invigorate and assist the candidates. By making practical steps we keep them moving in the direction of becoming data empowered professionals. Based on the candidates’ experiences we assign the mentors who will guide and support the candidates to develop the necessary skills and practical project experience. Together they will create a friendly, safe, and confidential environment for communication and informal discussions. The programme lasts six month and goes through the four key stages:&lt;/p&gt;
+      <description>&lt;p&gt;The mentoring programme goal is to guide and help the candidates to complete this course and to inspire, invigorate and assist the candidates. By taking practical steps we keep them moving in the direction of becoming data empowered professionals. Based on the candidates’ experiences we assign mentors who will guide and support the candidates to develop the necessary skills and practical project experience. Together they will create a friendly, safe, and confidential environment for communication and informal discussions. The programme lasts six months and goes through four key stages:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Stage 1&lt;/strong&gt;: Getting to know one another and explore areas where the mentee may need a support&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stage 2&lt;/strong&gt;: Moving forward in helping the mentee identify its needs and finding the ways in which mentor can help&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stage 1&lt;/strong&gt;: Getting to know one another and explore areas where the mentee may need support&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stage 2&lt;/strong&gt;: Moving forward in helping the mentee identify their needs and finding the ways in which the mentor can help&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Stage 3&lt;/strong&gt;: Develop a mentoring strategy for achieving the set goals&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Stage 4&lt;/strong&gt;: Reviewing the progression of the mentoring plan and reflecting on what has been achieved&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Through this mentoring programme, we will expose many candidates to data related practices and help them to nurture their interest in applying these practices to their everyday work.&lt;/p&gt;
-&lt;p&gt;Our mentoring programme aims to be inclusive, we are the antithesis of exclusivity, we believe in active engagement, knowledge acquisition and building skills for future goals and milestones.&lt;/p&gt;
+&lt;p&gt;Our mentoring programme aims to be inclusive; we are the antithesis of exclusivity, we believe in active engagement, knowledge acquisition and building skills for future goals and milestones.&lt;/p&gt;
 &lt;h2 id=&#34;guide&#34;&gt;Guide&lt;/h2&gt;
 &lt;p&gt;Mentoring Program plan will serve as a framework and roadmap to identify Mentoring Program priorities and designates roles, responsibilities, and criteria for meeting those priorities. The program plan will provide a systematic process to carry out the mission of providing lifelong, blended learning and developmental opportunities for our candidates.&lt;/p&gt;
 &lt;h3 id=&#34;broad-roles-and-responsibilities&#34;&gt;Broad roles and responsibilities&lt;/h3&gt;
@@ -328,7 +328,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-297156843&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-654129873&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -338,7 +338,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-297156843&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-654129873&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

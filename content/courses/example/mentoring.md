@@ -12,16 +12,17 @@ type: docs
 weight: 3
 ---
 
-The mentoring programme goal is to guide and help the candidates to complete this course and to inspire, invigorate and assist the candidates. By making practical steps we keep them moving in the direction of becoming data empowered professionals. Based on the candidates’ experiences we assign the mentors who will guide and support the candidates to develop the necessary skills and practical project experience. Together they will create a friendly, safe, and confidential environment for communication and informal discussions. The programme lasts six month and goes through the four key stages:
+The mentoring programme goal is to guide and help the candidates to complete this course and to inspire, invigorate and assist the candidates. By taking practical steps we keep them moving in the direction of becoming data empowered professionals. Based on the candidates’ experiences we assign mentors who will guide and support the candidates to develop the necessary skills and practical project experience. Together they will create a friendly, safe, and confidential environment for communication and informal discussions. The programme lasts six months and goes through four key stages:
 
--  **Stage 1**: Getting to know one another and explore areas where the mentee may need a support
--  **Stage 2**: Moving forward in helping the mentee identify its needs and finding the ways in which mentor can help
--  **Stage 3**: Develop a mentoring strategy for achieving the set goals
--  **Stage 4**: Reviewing the progression of the mentoring plan and reflecting on what has been achieved
+- **Stage 1**: Getting to know one another and explore areas where the mentee may need support
+- **Stage 2**: Moving forward in helping the mentee identify their needs and finding the ways in which the mentor can help
+- **Stage 3**: Develop a mentoring strategy for achieving the set goals
+- **Stage 4**: Reviewing the progression of the mentoring plan and reflecting on what has been achieved
 
 Through this mentoring programme, we will expose many candidates to data related practices and help them to nurture their interest in applying these practices to their everyday work. 
 
-Our mentoring programme aims to be inclusive, we are the antithesis of exclusivity, we believe in active engagement, knowledge acquisition and building skills for future goals and milestones.
+Our mentoring programme aims to be inclusive; we are the antithesis of exclusivity, we believe in active engagement, knowledge acquisition and building skills for future goals and milestones.
+
 
 ## Guide
 
