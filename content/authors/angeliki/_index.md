@@ -21,16 +21,16 @@ interests:
 organizations:
 - name: Sister Analyst
   url: https://sisteranalyst.org/
-role: BI developer│data pipeline software engineer
+role: research engineer
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/JovanaSavic2
+  link: https://twitter.com/AngelikiLk
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/jovana-savić-12aa305a/
+  link: https://www.linkedin.com/in/angeliki-l/
 superuser: true
-title: Jovana Savić
+title: Angeliki Loukatou
 user_groups:
 - Team
 ---
