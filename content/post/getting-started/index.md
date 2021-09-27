@@ -1,87 +1,31 @@
 ---
-authors:
-- admin
-- 吳恩達
-categories:
-- Demo
-- 教程
-date: "2016-04-20T00:00:00Z"
-draft: false
-featured: false
+date: "2021-09-27T00:00:00Z"
+diagram: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
-  focal_point: ""
-  placement: 2
-  preview_only: false
-lastmod: "2020-12-13T00:00:00Z"
-projects: []
-subtitle: "Welcome \U0001F44B We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time."
-summary: "Welcome \U0001F44B We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time."
-tags:
-- Academic
-- 开源
-title: Welcome to Wowchemy, the website builder for Hugo
+  caption: 'Image credit: [**UNDP**](https://www.me.undp.org/content/montenegro/en/home.html)'
+  placement: 3
+math: true
+title: The Women in STEM Network
+tags: ['stem', 'gender equality', 'inclusivity']
 ---
 
-## Overview
+Last week, The [Regional Cooperation Council (RCC)](https://www.rcc.int) and the [United Nations Development Programme (UNDP)](https://www.undp.org) assembled a group of women from Albania, Bosnia and Hercegovina, Kosovo, Montenegro, North Macedonia and Serbia. The objective was to meet and work as a group as a means of establishing the [Regional Network of Women in STEM](https://www.rcc.int/events/1423/women-economic-empowerment-wee-launch-of-the-regional-network-of-women-in-stem) (Science, Technology, Engineering and Maths). The Women in STEM Network aims to expand opportunities for girls and women in educational and workplace contexts within the Western Balkans, focussing on STEM related fields. Ingrained patriarchal values and traditional culture norms are hinderances to women’s empowerment and gender equality in the Western Balkans (WB) region. This group of women are determined to address and resolve this and any other obstructions to the progress and empowerment of women in STEM. 
 
-1. The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
+The impact of COVID-19 resulted in a significant step backwards to recent progress regarding the reduction of gender segregation within occupations and women’s under-employment. The unequal participation in domestic duties has disproportionately impacted on the economic actualities of working women. At the same time, during the COVID-19 crises companies have accelerated their digital transformation as a crucial strategy for survival and future success.
 
-{{< figure src="https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png" title="The template is mobile first with a responsive design to ensure that your site looks stunning on every device." >}}
+Analytics and automation are absolutely key to successful digital transformation for
+businesses of all sizes. The global pandemic, seismic in its impact, has both accelerated the need for robust transformation strategies and simultaneously highlighted the cracks and strains relating to gender employment.
 
-## Get Started
+We recognise that the life-blood of our network is STEM education as an integrated, interdisciplinary approach to learning that provides hands-on learning experiences for students and wider communities. We see STEM teaching and learning beyond the mere transfer of knowledge. It is a mechanism for initiating and equipping learners with critical thinking, problem solving, creative and collaborative skills. This mechanism ultimately establishes interconnected relationships between work places, schools and communities and regional economies. 
 
-- 👉 [**Create a new site**](https://wowchemy.com/templates/)
-- 📚 [**Personalize your site**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/update/) and [Release Notes](https://wowchemy.com/updates/)
+Even before the pandemic, organizations were struggling to recruit and retain people
+with the skills needed to help them succeed in a data-driven world. Part of the
+solution is to retrain current workforces into productive data analytic practitioners, which are closely STEM related. A person-centred approach is essential to success, as is infusing a culture of familiarity and expertise with data analytics overarching various organisations. Focussing on human-centred approaches makes data analytics accessible to a broader demographic, particularly women, which is now more than ever crucial in the current working environment.
 
-## Crowd-funded open-source software
+Throughout the pandemic it has become even more obvious that in order to gain a competitive advantage in a business environment companies will have to provide an inclusive framework supporting work life balance and flexible work arrangements that attracts and retains a talented workforce and enhances women’s access to non-traditional jobs. It is very desirable to introduce certification for gender equality standards, to encourage and recognise commitment to advancing the careers of women in STEM. Certification showcases a company’s commitment to gender equality and transparency and helps to the create a cultural perception in the region of more equal and fairer society. 
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+We all recognise that in addition to addressing the talent pipeline issue and encouraging more young women to pursue careers in STEM related fields, there is more industry can and should do. We have an obligation to be mutually supportive, this is the first step in countering unconscious bias and genuinely empower people. Difference is an accelerator of innovation.
 
-### [❤️ Click here to become a sponsor and help support Wowchemy's future ❤️](https://wowchemy.com/plans/)
-
-As a token of appreciation for sponsoring, you can **unlock [these](https://wowchemy.com/plans/) awesome rewards and extra features 🦄✨**
-
-## Ecosystem
-
-* **[Wowchemy Admin](https://github.com/wowchemy/wowchemy-admin/):** An admin tool to automatically import publications from BibTeX
-
-## Inspiration
-
-[Check out the latest **demo**](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the **showcase**](https://wowchemy.com/user-stories/) of personal, project, and business sites.
-
-## Features
-
-- **Page builder** - Create *anything* with [**widgets**](https://wowchemy.com/docs/page-builder/) and [**elements**](https://wowchemy.com/docs/writing-markdown-latex/)
-- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**](https://wowchemy.com/docs/writing-markdown-latex/), [**Jupyter**](https://wowchemy.com/docs/import/jupyter/), or [**RStudio**](https://wowchemy.com/docs/install-locally/)
-- **Plugin System** - Fully customizable [**color** and **font themes**](https://wowchemy.com/docs/customization/)
-- **Display Code and Math** - Code highlighting and [LaTeX math](https://en.wikibooks.org/wiki/LaTeX/Mathematics) supported
-- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
-- **Beautiful Site** - Simple and refreshing one page design
-- **Industry-Leading SEO** - Help get your website found on search engines and social media
-- **Media Galleries** - Display your images and videos with captions in a customizable gallery
-- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
-- **Multi-language** - 34+ language packs including English, 中文, and Português
-- **Multi-user** - Each author gets their own profile page
-- **Privacy Pack** - Assists with GDPR
-- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
-- **One-Click Deployment** - No servers. No databases. Only files.
-
-## Themes
-
-Wowchemy and its templates come with **automatic day (light) and night (dark) mode** built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the [Demo](https://academic-demo.netlify.com/) to see it in action! Day/night mode can also be disabled by the site admin in `params.toml`.
-
-[Choose a stunning **theme** and **font**](https://wowchemy.com/docs/customization) for your site. Themes are fully customizable.
-
-## License
-
-Copyright 2016-present [George Cushen](https://georgecushen.com).
-
-Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md) license.
+It’s now agreed that the Women in STEM Network is going to be based on a data driven framework with the principles of equity, partnership, and sustainability. The network will seek smart, scalable solutions that lead to removing barriers and creating equitable access and opportunities for historically underserved groups of women. Gender focus is at the heart of the process of developing new programs and initiating projects as a means of closing the gender gap. Our initiative seeks to develop mechanisms of support for women as they strive to become leaders, critical thinkers, and creators. The networks created will develop new programs, projects, funding opportunities and consequently create greater opportunities for gender minorities.
+ 
+Establishing supportive communities with a cross section of data literacy skills is a necessary step in the direction of empowering women in the workplace. You don’t need to be a maths or computer person, it’s all about learning to ask the right questions when in possession of available data. Our regional STEM Networks will bring educators, business leaders, STEM professionals, and community leaders together to build success connecting STEM career opportunities within their communities.

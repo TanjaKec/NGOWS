@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wrangling | SisterAnalyst</title>
+    <link>/tag/wrangling/</link>
+      <atom:link href="/tag/wrangling/index.xml" rel="self" type="application/rss+xml" />
+    <description>wrangling</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 20 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/SA_hex.png</url>
+      <title>wrangling</title>
+      <link>/tag/wrangling/</link>
+    </image>
+    
+    <item>
+      <title>Air pollution in Belgrade</title>
+      <link>/post/oh/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/post/oh/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Earlier in March we ran our first ever &lt;a href=&#34;https://openheroines.org&#34;&gt;Open Heroines&lt;/a&gt; event here in Belgrade.&lt;/p&gt;
+&lt;p&gt;We got things started by creating &lt;a href=&#34;https://ohsa.netlify.app/&#34;&gt;a website&lt;/a&gt; publicising our event and making it clear from the get go what the participants could expect from the event. The website was created in &lt;a href=&#34;https://rstudio.com&#34;&gt;RStudio&lt;/a&gt; using &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34;&gt;&lt;code&gt;blogdown&lt;/code&gt;&lt;/a&gt; and &lt;a href=&#34;https://themes.gohugo.io&#34;&gt;HUGO&lt;/a&gt; and deployed using &lt;a href=&#34;https://github.com&#34;&gt;GitHub&lt;/a&gt; and &lt;a href=&#34;https://www.netlify.com&#34;&gt;Netlify&lt;/a&gt;. The responses to the site were very positive and we were particularly bowled over by the wide range of backgrounds of the people wishing to attend. From economists to journalists, students to CEOs, the desire to understand more about the power of data acted as the adhesive to the collective ensemble.&lt;/p&gt;
+&lt;p&gt;We illustrated the process of the democratisation of open data. In the belief that we should use a topical subject for analysis, we looked at data related to air pollution in Belgrade sourced from &lt;a href=&#34;https://klimerko.org&#34;&gt;Vazduh Gradjanima&lt;/a&gt; – a hot talking point within the city. We created R-Markdown reports where the participants created visual data reporting of the core issues related to air pollution. There was an amazing response to everyone being able to learn how to interact with data, as if a new world was now available to them.&lt;/p&gt;
+&lt;p&gt;In the spirit of transparency and reproducibility for those who were not fortunate to join us in learning how to use R and analyse this air pollution data, we uploaded our findings to the GitHub &lt;a href=&#34;https://tanjakec.github.io/OH_workshop/OHSA.html&#34; class=&#34;uri&#34;&gt;https://tanjakec.github.io/OH_workshop/OHSA.html&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
