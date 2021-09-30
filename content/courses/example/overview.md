@@ -86,4 +86,4 @@ People who recognise the paramount importance of data and its use and are
 
 **The course is delivered twice a year.** 
 
-**Our next available cohort starts on 03 March 2022.**
+**Our next available cohort starts on 02 March 2022.**

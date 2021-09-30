@@ -86,4 +86,6 @@ People who recognise the paramount importance of data and its use and are
 +	Able to commit to all required sessions and the time requirements specified
 +	Willing to share knowledge and return as a mentor or coach
 
-**The course is delivered twice a year. Our next available cohort starts on 03 March 2022.**
+**The course is delivered twice a year.**
+
+**Our next available cohort starts on 02 March 2022.**
