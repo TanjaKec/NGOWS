@@ -3,7 +3,7 @@ date: "2021-06-09T00:00:00+01:00"
 draft: false
 linktitle: mentoring
 menu:
-  example:
+  programmes:
     parent: Mentoring
     weight: 3
 title: Mentoring Programme

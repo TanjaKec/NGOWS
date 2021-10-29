@@ -3,7 +3,7 @@ date: "2021-06-09T00:00:00+01:00"
 draft: false
 linktitle: syllabus
 menu:
-  example:
+  programmes:
     parent: Fundamental DS and AI skills
     weight: 2
 title: Indicative Syllabus

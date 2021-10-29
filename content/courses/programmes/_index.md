@@ -1,17 +1,19 @@
 ---
-date: "2021-06-09T00:00:00+01:00"
+date: "2021-06-09T00:00:00Z"
 draft: false
-linktitle: overview
+lastmod: "2021-09-06T00:00:00Z"
+linktitle: Click here to see our programmes
 menu:
-  example:
-    parent: Fundamental DS and AI skills
-    weight: 1
-title: Overview
+  programmes:
+    name: 
+    weight: 0
+summary: by supporting our organisation, you contribute to building diversity and inclusion in data driven working environment ecosystem. Companies participating in this programme benefit by gaining access to a diverse talent pool and data science consulting services.
+ 
+title: Fundamental DS and AI skills
 toc: true
 type: docs
 weight: 1
 ---
-
 
 ## Fundamental DS and AI skills: data skills for work
 
@@ -21,7 +23,7 @@ By applying AI algorithms, we draw answers from data, which is why fundamental c
 
 During the course, you will be introduced to a wide variety of free and open source tools commonly used when working on a data project. You will apply these tools in many practical activities and case studies, solving problems that involve finding and evaluating information, performing calculations and data wrangling that will enable you to draw reasoned conclusions.
 
-We will start from zero, with no prior knowledge required, and work our way up to advanced data analysis using [R](https://www.r-project.org), a public domain language for data analysis. The curriculum covers the relevant tools and technologies including Fundamental Coding and Basic Statistical Concepts through the use of [R](https://cran.r-project.org). R amalgamates the learning of important and desirable data skills: code writing for statistical modelling, and visualisation and data reporting in a reproducible manner. You will learn how to use [Git](https://git-scm.com), a version control system, to track changes when working on a data project in a transparent and reproducible manner that fosters knowledge sharing and collaboration.  
+We will start from zero, with no prior knowledge required, and work our way up to advanced data analysis using R, a public domain language for data analysis. The curriculum covers the relevant tools and technologies including Fundamental Coding and Basic Statistical Concepts through the use of R. R amalgamates the learning of important and desirable data skills: code writing for statistical modelling, and visualisation and data reporting in a reproducible manner. You will learn how to use Git, a version control system, to track changes when working on a data project in a transparent and reproducible manner that fosters knowledge sharing and collaboration.  
 
 You will be guided by skilled instructors and will gain real-world experience by collaborating with your peers on real-life data projects provided by our partner companies and organisations. You will build a comprehensive portfolio throughout the learning experience, giving you the confidence needed to tap into related industries.
 
@@ -84,6 +86,6 @@ People who recognise the paramount importance of data and its use and are
 +	Able to commit to all required sessions and the time requirements specified
 +	Willing to share knowledge and return as a mentor or coach
 
-**The course is delivered twice a year.** 
+**The course is delivered twice a year.**
 
 **Our next available cohort starts on 02 March 2022.**
