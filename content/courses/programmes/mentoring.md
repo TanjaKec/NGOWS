@@ -6,13 +6,19 @@ menu:
   programmes:
     parent: Mentoring
     weight: 3
-title: Mentoring Programme
+title: The Pulsar Mentoring Programme
 toc: true
 type: docs
 weight: 3
 ---
 
-The goal of the  mentoring programme is to guide and help the candidates to complete this course and to inspire, invigorate and assist the candidates. By taking practical steps we keep them moving in the direction of becoming data empowered professionals. Based on the candidates’ experiences we assign mentors who will guide and support them to develop the necessary skills and to gain practical project experience. Together they will create a friendly, safe, and confidential environment for communication and informal discussions. The programme lasts six months and goes through four key stages:
+The Pulsar mentoring programme is aimed at women and gender minority groups with a desire to enter the rapidly expanding world of data. 
+
+The goal of the mentoring programme is to accelerate the personal and professional development of our candidates, inspiring and assisting them to realise their potential through the application of DS and AI in their professional lives.
+
+With the help of our mentors we are breaking gender barriers and navigating the skills essential for discovering future data empowered careers.
+
+By taking practical steps we keep them moving in the direction of becoming data empowered professionals. Based on the candidates’ experiences we assign mentors who will guide and support them to develop the necessary skills and to gain practical project experience. Together they will create a friendly, safe, and confidential environment for communication and informal discussions. The programme lasts six months and goes through four key stages:
 
 - **Stage 1**: Getting to know one another and explore areas where the mentee may need support
 - **Stage 2**: Moving forward in helping the mentee identify their needs and finding the ways in which the mentor can help
