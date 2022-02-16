@@ -18,7 +18,7 @@ The goal of the mentoring programme is to accelerate the personal and profession
 
 With the help of our mentors we are breaking gender barriers and navigating the skills essential for discovering future data empowered careers.
 
-By taking practical steps we keep them moving in the direction of becoming data empowered professionals. Based on the candidates’ experiences we assign mentors who will guide and support them to develop the necessary skills and to gain practical project experience. Together they will create a friendly, safe, and confidential environment for communication and informal discussions. The programme lasts six months and goes through four key stages:
+By taking practical steps we keep our candidates moving in the direction of becoming data empowered professionals. Based on the candidates’ experiences we assign mentors who will guide and support them to develop the necessary skills and to gain practical project experience. Together they will create a friendly, safe, and confidential environment for communication and informal discussions. The programme lasts six months and goes through four key stages:
 
 - **Stage 1**: Getting to know one another and explore areas where the mentee may need support
 - **Stage 2**: Moving forward in helping the mentee identify their needs and finding the ways in which the mentor can help
