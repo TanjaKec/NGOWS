@@ -11,7 +11,7 @@ education:
   - course: BSc, Information Systems Engineering
     institution: University of Belgrade, Serbia
     year: 1998
-email: "tatjana.keco@gmail.com"
+email: "tatjana@sisteranalyst.org"
 highlight_name: true
 interests:
 - Statistical modelling
@@ -21,7 +21,8 @@ interests:
 organizations:
 - name: Sister Analyst
   url: https://sisteranalyst.org/
-role: statistician and ever evolving data scientist
+role: statistician and ever evolving data scientist tatjana@sisteranalyst.org
+user_groups:
 social:
 - icon: twitter
   icon_pack: fab

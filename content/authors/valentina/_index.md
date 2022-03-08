@@ -21,7 +21,7 @@ interests:
 organizations:
 - name: Sister Analyst
   url: https://sisteranalyst.org/
-role: data scientist
+role: Insights Delivery Manager valentina@sisteranalyst.org
 social:
 - icon: linkedin
   icon_pack: fab

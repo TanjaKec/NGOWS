@@ -21,7 +21,7 @@ interests:
 organizations:
 - name: Sister Analyst
   url: https://sisteranalyst.org/
-role: senior research engineer
+role: senior research engineer angeliki@sisteranalyst.org
 social:
 - icon: twitter
   icon_pack: fab

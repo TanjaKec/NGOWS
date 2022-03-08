@@ -21,7 +21,7 @@ interests:
 organizations:
 - name: Sister Analyst
   url: https://sisteranalyst.org/
-role: business data analyst
+role: business data analyst isidora.gataric@sisteranalyst.org
 social:
 - icon: linkedin
   icon_pack: fab

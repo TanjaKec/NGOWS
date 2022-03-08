@@ -21,7 +21,7 @@ interests:
 organizations:
 - name: Sister Analyst
   url: https://sisteranalyst.org/
-role: BI developer│data pipeline software engineer
+role: BI developer│data pipeline software engineer jovana.savic@sisteranalyst.org
 social:
 - icon: twitter
   icon_pack: fab
