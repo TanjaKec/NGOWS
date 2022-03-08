@@ -7,8 +7,8 @@ menu:
   programmes:
     name: 
     weight: 0
-summary: by supporting our organisation, you contribute to building diversity and inclusion in data driven working environment ecosystem. Companies participating in this programme benefit by gaining access to a diverse talent pool and data science consulting services.
- 
+summary: by supporting our organisation, you contribute to building diversity and inclusion in data driven working environment ecosystem. Companies participating in this programme benefit by gaining access to a diverse talent pool and data science consulting services. 
+
 title: Fundamental DS and AI skills
 toc: true
 type: docs

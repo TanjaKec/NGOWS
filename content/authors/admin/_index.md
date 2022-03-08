@@ -10,7 +10,7 @@ bio: Our courses are aimed at women and gender minority groups from any social b
 #  - course: BSc in Artificial Intelligence
 #    institution: Massachusetts Institute of Technology
 #    year: 2008
-email: ""
+email: "info@sisteranalyst.org"
 highlight_name: true
 interests:
 #- Artificial Intelligence
