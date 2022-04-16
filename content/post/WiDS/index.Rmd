@@ -90,7 +90,7 @@ During all of the sessions initiatives were discussed and new friendships formed
 knitr::include_graphics("images/wids0.jpg")
 ```
 
-We would like to thank [Anica (Vulović) Pavlović](https://www.linkedin.com/in/anica-pavlovi%C4%87-91299341/) and her [“Deciji Inovativni Centar”](http://dic.rs) for organising and hosting the robotics for kids and their mums workshop. 
+We would like to thank [Anica (Vulović) Pavlović](https://www.linkedin.com/in/anica-pavlovi%C4%87-91299341/) and her [“Deciji Inovativni Centar”](http://dic.rs) for organising and hosting the robotics for kids and their mums workshop
 ```{r echo = F, fig.width=6, fig.height=6, fig.align='center', out.width = '25%'}
 knitr::include_graphics("images/dic.png")
 ```
