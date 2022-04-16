@@ -1,5 +1,5 @@
 ---
-bio: Our courses are aimed at women and gender minority groups from any social background with the desire to enter the rapidly expanding world of data.
+bio: Our programmes are aimed at women and gender minority groups from any social background with the desire to enter the rapidly expanding world of data.
 #  courses:
 #  - course: PhD in Artificial Intelligence
 #    institution: Stanford University

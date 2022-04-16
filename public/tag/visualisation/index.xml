@@ -5,12 +5,62 @@
     <link>/tag/visualisation/</link>
       <atom:link href="/tag/visualisation/index.xml" rel="self" type="application/rss+xml" />
     <description>visualisation</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 20 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 16 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/SA_hex.png</url>
       <title>visualisation</title>
       <link>/tag/visualisation/</link>
     </image>
+    
+    <item>
+      <title> Women in Data Science Belgrade 2022</title>
+      <link>/post/wids/</link>
+      <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>/post/wids/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;The first &lt;a href=&#34;https://widsbg2022.netlify.app&#34;&gt;WiDS Belgrade 2022&lt;/a&gt; conference, our 4th WiDS Serbia event, was a big success!&lt;/p&gt;
+&lt;p&gt;On 26th March, in &lt;a href=&#34;https://www.icthub.rs&#34;&gt;ICT Hub&lt;/a&gt; Belgrade, a Women in Data Science (WiDS) Belgrade 2022 was hosted by &lt;a href=&#34;https://www.linkedin.com/in/isidora-gataric/&#34;&gt;Isidora Gatarić&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/valentina-đorđević/&#34;&gt;Valentina Đorđević&lt;/a&gt; and &lt;a href=&#34;https://www.linkedin.com/in/tatjana-kecojevic-803704143/&#34;&gt;Tatjana Kecojevic&lt;/a&gt;, three WiDS Ambassadors based in Serbia. The conference is global initiative driven by &lt;a href=&#34;https://www.widsconference.org&#34;&gt;Women in Data Science (WiDS)&lt;/a&gt;, &lt;a href=&#34;https://www.stanford.edu&#34;&gt;Stanford University (USA)&lt;/a&gt;, and this year it was held at 200+ locations around the world.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://widsbg2022.netlify.app&#34;&gt;WiDS Belgrade 2022&lt;/a&gt; event included two parts:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: lower-roman&#34;&gt;
+&lt;li&gt;Robotics for mums and kids organised by &lt;a href=&#34;https://www.linkedin.com/in/anica-pavlovi%C4%87-91299341/&#34;&gt;Anica (Vulović) Pavlović&lt;/a&gt;’s &lt;a href=&#34;http://dic.rs&#34;&gt;“Deciji Inovativni Centar”&lt;/a&gt; and&lt;/li&gt;
+&lt;li&gt;DS panel discussion&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Robotics technology influences every aspect of work and home. Robotics has the potential to positively transform lives and work practices. With this in mind the next generation of its users needs to learn and recognise the application of STEAM as a multi and cross disciplinary concept is an empowering undertaking.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/robotics2.jpg&#34; width=&#34;60%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Encouraging a passion for Maths and Science is a starting point as is elevating the many achievements of women involved in Data Science and data driven industries in general.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/robotics1.jpg&#34; width=&#34;80%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;We at Sister Analyst believe that establishing supportive communities with a cross section of data literacy skills is a necessary step in the direction of empowering women in the workplace. Guided by this conviction, we organised four discussion panels within which we covered a wide spectrum of related DS subjects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Business development&lt;/li&gt;
+&lt;li&gt;Education&lt;/li&gt;
+&lt;li&gt;HR, Employment&lt;/li&gt;
+&lt;li&gt;Analytics and engineering&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;images/wids1.jpg&#34; width=&#34;80%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Four excellent panel discussions covered a wide spectrum of related DS subjects and the panellists share their personal professional experiences of working within data driven environments. Additionally, they discussed wider issues concerning entrepreneurship and education. Accordingly, on 4 panel dicussions of 4 different topics, we had 19 fantastic guests.&lt;/p&gt;
+&lt;p&gt;The discussions began with the Business Development and Data Science panel, were
+&lt;a href=&#34;https://www.linkedin.com/in/branislava-subotin-7750b8137/&#34;&gt;Branislava Subotin&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/ljubica-vujovic-2375a885/&#34;&gt;Ljubica Vujović&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/anita-jovic/&#34;&gt;Anita Jović&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/danijela-cabarkapa-99691716/&#34;&gt;Danijela Čabarkapa&lt;/a&gt; and &lt;a href=&#34;https://www.linkedin.com/in/jelena-roksandi%C4%87/&#34;&gt;Jelena Roksandić&lt;/a&gt; discussed how they handle their business topics in Data Science oriented teams.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/p1.jpg&#34; width=&#34;80%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Educational themes were highlighted and discussed at the second panel. There &lt;a href=&#34;http://www.jelenajovanovic.net/&#34;&gt;Jelena Jovanović&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/donandjela/&#34;&gt;Anđela Donević&lt;/a&gt;, &lt;a href=&#34;https://rgf.bg.ac.rs/page.php?page=profesori_details&amp;amp;id=219&#34;&gt;Ranka Stanković&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/mirjana-katic-48b215233/&#34;&gt;Mirjana Katić&lt;/a&gt; and &lt;a href=&#34;https://www.linkedin.com/in/katarina-andjelkovic-02952616/&#34;&gt;Katarina Anđelković&lt;/a&gt; discussed in detail the formal and informal education situation relating to Data Science in Serbia.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/p2.png&#34; width=&#34;80%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;In the third panel, &lt;a href=&#34;https://www.linkedin.com/in/sonjacetkovic/&#34;&gt;Sonja Ćetković&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/bucalina/&#34;&gt;Ivana Bučalina&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/vanja-vlaski/&#34;&gt;Vanja Vlaški&lt;/a&gt; and &lt;a href=&#34;https://www.linkedin.com/in/ana-toskic-81349619/&#34;&gt;Ana Toskić&lt;/a&gt; dicussed employment and job/intern oportunities in the Data Science market in Serbia. Subjects such as recruitment processes and data privacy in Serbia were debated and considered.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/p3.png&#34; width=&#34;80%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Our final panel was dedicated to technical subjects related to Data Science jobs, such as data analytics, data science and engineering tasks and this discussion was conducted by &lt;a href=&#34;https://www.linkedin.com/in/ana-dukic-55061616a/&#34;&gt;Ana Dukić&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/marija-gavrilovic-67280995/&#34;&gt;Marija Gavrilović&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/tamara-krivokuca/&#34;&gt;Tamara Krivokuća&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/milena-k-57947430/&#34;&gt;Milena Kresoja&lt;/a&gt; and &lt;a href=&#34;https://www.linkedin.com/in/tijana-dragojevi%C4%87-9715a6152/&#34;&gt;Tijana Dragojević&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/p4.png&#34; width=&#34;80%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The conference was well attended, a fantastic first here in Belgrade and we enjoyed adopting a new format for our event. Robotics for mum and kids was a fun way to engage with children in their process of learning important STEAM related skills. Highlighting the potential for the application of STEAM as a multi and cross disciplinary concept is an empowering undertaking. Just as smart technology offer connectivity far beyond our imagination, robots are beginning to exceed physical capabilities using artificial intelligence (AI), and cognitive skills far beyond our expectations. It can help solve significant challenges such as current environmental threats and global conflicts. It is important to prepare next generation for the future, and most importantly, have fun learning and experimenting with it.&lt;/p&gt;
+&lt;p&gt;Panel discussions at conferences were a useful way to trigger an exchange of viewpoints among experts in response to very well thought questions from our fantastic moderator Isidora. They involved on-the-spot interaction among the panellists with Isidora directing them from the beginning of each of the session to the their end. All four panels sparked thought-provoking conversations between expert panellists, enabling the audience to learn from their discourse and interactions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;WiDS Belgrade 2022&lt;/strong&gt; was an illustration of a simple way of the actions and activities that can be introduced to support our children to understand data driven technology for their future. Through the interactive panel discussions we meaningfully engaged with the participating actors and everyone with the desire to enter the rapidly expanding world of data.&lt;/p&gt;
+&lt;p&gt;During all of the sessions initiatives were discussed and new friendships formed and there is now a clear commitment to pushing ahead with our strategies for building on the foundations set at the conference. We are sure that we will meet up next year in an even greater number expanding our platform for networking and knowledge sharing.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/wids0.jpg&#34; width=&#34;80%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;We would like to thank &lt;a href=&#34;https://www.linkedin.com/in/anica-pavlovi%C4%87-91299341/&#34;&gt;Anica (Vulović) Pavlović&lt;/a&gt; and her &lt;a href=&#34;http://dic.rs&#34;&gt;“Deciji Inovativni Centar”&lt;/a&gt; for organising and hosting the robotics for kids and their mums workshop.
+&lt;img src=&#34;images/dic.png&#34; width=&#34;25%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;and to &lt;a href=&#34;https://www.icthub.rs&#34;&gt;ICT Hub&lt;/a&gt; for sponsoring and hosting this event at their Belgrade Hub.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/icthub.png&#34; width=&#34;15%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Air pollution in Belgrade</title>
