@@ -43,7 +43,27 @@
   </url>
   
   <url>
+    <loc>/tag/ds/</loc>
+    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/</loc>
+    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/steam/</loc>
+    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/wids/</loc>
     <lastmod>2022-04-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -64,11 +84,6 @@
   
   <url>
     <loc>/tag/stem/</loc>
-    <lastmod>2021-09-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2021-09-27T00:00:00+00:00</lastmod>
   </url>
   
