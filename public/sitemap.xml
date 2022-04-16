@@ -43,27 +43,12 @@
   </url>
   
   <url>
-    <loc>/post/wids/</loc>
+    <loc>/tag/ai/</loc>
     <lastmod>2022-04-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/#ai/</loc>
-    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/#datascience/</loc>
-    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/#steam/</loc>
-    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/#wids/</loc>
+    <loc>/tag/datascience/</loc>
     <lastmod>2022-04-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -73,7 +58,22 @@
   </url>
   
   <url>
+    <loc>/tag/steam/</loc>
+    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
+    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/wids/</loc>
+    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/wids/</loc>
     <lastmod>2022-04-16T00:00:00+00:00</lastmod>
   </url>
   

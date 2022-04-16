@@ -1,10 +1,10 @@
 ---
-title: " Women in Data Science Belgrade 2022"
+title: "Women in Data Science Belgrade 2022"
 author: "Tanja"
 date: "2022-04-16T00:00:00Z"
 lastmod: "2022-04-16T00:00:00Z"
 output: html_document
-tags: ['#wids', '#datascience', '#ai', '#steam', '#steam']
+tags: ['wids', 'datascience', 'ai', 'steam']
 ---
 
 ```{r setup, include=FALSE}
