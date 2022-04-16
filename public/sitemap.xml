@@ -48,7 +48,22 @@
   </url>
   
   <url>
-    <loc>/tag/open-data/</loc>
+    <loc>/tag/#ai/</loc>
+    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/#datascience/</loc>
+    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/#steam/</loc>
+    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/#wids/</loc>
     <lastmod>2022-04-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -59,16 +74,6 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/visualisation/</loc>
-    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/wrangling/</loc>
     <lastmod>2022-04-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -99,6 +104,21 @@
   
   <url>
     <loc>/post/oh/</loc>
+    <lastmod>2020-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/open-data/</loc>
+    <lastmod>2020-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/visualisation/</loc>
+    <lastmod>2020-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/wrangling/</loc>
     <lastmod>2020-03-20T00:00:00+00:00</lastmod>
   </url>
   
