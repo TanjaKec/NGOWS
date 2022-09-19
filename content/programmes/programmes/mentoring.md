@@ -12,7 +12,7 @@ type: docs
 weight: 3
 ---
 
-We will be launching the first round of **the Pulsar Mentoring Programme** on **20 September 2022**.
+We will be launching the first round of **the Pulsar Mentoring Programme** on **31 October 2022**.
 
 Our goal is to help more women and gender minority groups flourish in their careers through our mentoring programme, this will inspire and assist them to advance their careers through the application of DS and AI in their professional lives.
 
@@ -34,6 +34,7 @@ The programme is inclusive and is designed for people at all walks of life and s
 
 View [the Pulsar mentoring guide](https://bit.ly/sapulsar) for more details on what the programme entails.
 
+
 ### How can I get involved?
 
 If you are interested in joining the network or signing up as a mentor or mentee, please fill the appropriate form:
@@ -41,5 +42,8 @@ If you are interested in joining the network or signing up as a mentor or mentee
 - [become a Pulsar’s mentee](https://forms.gle/8MPW8Qq6mjoyw3C7A)
 - [become a Pulsar’s mentor](https://forms.gle/LiaQ8KzAV8jwjmVG6)
 
+<img src="/programmes/mentoring_files/Screen Shot 2022-08-09 at 15.53.24.png" alt="" width="80%" height="80%"/>
+
 or alternatively, get in touch and contact Sister Analyst at pulsar@sisteranalyst.org for more information.
+
 
